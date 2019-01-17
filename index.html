@@ -10,12 +10,37 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+        body { 
+            font-size: 16px; 
+            line-height: 32px;
+            font-family: /* Ubuntu, sans-serif */;
+            color: /* #xxxxxx */;
+        }
     <header>
-        <img src="My Profile Picture.jpg" alt="My Profile Picture">
+            header img {
+                width: /*  */;
+                height: auto;
+                float: right;
+            }
+        <img src="images/my_profile_picture.jpg" alt="My Profile Picture">
         <h1>Christy White</h1>
+        h1 {
+            font-size: /* x.xrem  (rem is a unit of measure) */;
+            color: /* #xxxxxx */;
+        }
     </header>
+    header, main, footer {
+        margin: 1.25rem auto;
+        padding: .5rem;
+        max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+    }
     <main>
         <h2>CIT 230- Assignment Portal</h2>"
+        h2 {
+            font-size: /* x.xrem */;
+            text-align: center;
+            border-bottom: 1px solid #bbb;
+        }
         <ul>
             <li>Lesson ##: <a href="#">Assignment Label</a></li>"
             <li>Lesson ##: <a href="#">Assignment Label</a></li>"
@@ -23,6 +48,11 @@
         </ul>
     </main>
     <footer>
+            header, footer, footer a {
+                text-align: center;
+                background-color: /* */;
+                color: whitesmoke;
+            }
         <p>&copy; 2019-Christy White-Columbus,Indiana;<a href="http://www.byui.edu/online">Byu-Idaho Online Learning</a></p>
     </footer>
 </body>
