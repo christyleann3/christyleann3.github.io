@@ -1,0 +1,16 @@
+nav {
+    height: 2.5rem;
+    padding-top: .6rem;
+    background-color: #709255
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 1.75rem;
+}
+nav li {
+    display: inline-block;
+    padding-right: 1.75rem;
+}
+main {
+    margin-top: 1rem;
+}
