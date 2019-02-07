@@ -33,39 +33,30 @@
             <h1>Southeast Idaho Weather</h1>
             <h2>Southeast Idaho's #1 Weather Site</h2> 
         </header>
-        /* the navbar container */
-        .topnav {
-            overflow: hidden;
-            background-color: #83781B;
-        }
-        /* navbar links */
-        .topnav a {
-            float: center;
-            display: block;
-            color: #ffffff;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none; {
-        }
-        /* on screens that are 600px wide or less. make the menu links stack on top of each other  instead of next to each other */
-        @media screen and (max-width: 480px)
-            .topnav a {
-                float: none;
-                width: 100%;
-            }
-        }    
         <nav>
             <ul id="menu">
                 <li>
                     Menu
-                </li>    
+                </li>
+                <style>
+                    ul{
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        background-color: #83781B
+                    } 
+                    li {
+                        display: inline;
+                    }
+                </style>       
                     <ul>
-                        <li>Home</li>
-                        <li>Preston</li>  
-                        <li>Soda Springs</li>   
-                        <li>Fish Haven</li>   
-                        <li>Storm Center</li>   
-                        <li>Gallery</li>    
+                        <li><a href="default.asp">Home</a></li>
+                        <li><a href="preston.asp">Preston</a></li>  
+                        <li><a href="soda springs.asp">Soda Springs</a></li>   
+                        <li><a href="fish haven.asp">Fish Haven</a></li>   
+                        <li><a href="storm center.asp">Storm Center</a></li>   
+                        <li><a href="gallery.asp">Gallery</a></li>    
                     </ul>
                 </li>    
             </ul>        
