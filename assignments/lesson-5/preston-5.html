@@ -13,9 +13,11 @@
             <style>
                 img {
                     float: left;
+                    width: auto;
+                    height: 100px;
                 }    
             </style>
-        <img src="image/logo.jpg" alt="logo.jpg">
+        <img src="assignments/lesson-5/images/logo.jpg" alt="logo.jpg">
             <style>
                 h1, h2 {
                     display: block;
@@ -25,9 +27,11 @@
                 }
                 h1 {
                     font-size: 60px;
+                    background: #256d1b;  
                 } 
                 h2 {
-                    font-size: 20px; 
+                    font-size: 30px;
+                    background: #95B46A; 
                 }
             </style>
             <h1>Southeast Idaho Weather</h1>
@@ -40,16 +44,22 @@
                     margin: 0;
                     padding: 0;
                     overflow: hidden;
-                    background-color: #95B46A
+                    background-color: #256d1b;
                 } 
+                li {
+                    float: left;
+                }
                 li a {
-                    display: inline;
+                    display: block;
+                    padding: 8px;
                     color: #ffffff;
                     text-align: center;
-                    padding: 14px 16px;
                     text-decoration: none;
                 }
-            </style>       
+                li a:hover {
+                    background-color: #172815;
+                }
+            </style> 
             <ul>
                 <li><a href="default.asp">Home</a></li>
                 <li><a href="preston.asp">Preston</a></li>  
@@ -59,17 +69,41 @@
                 <li><a href="gallery.asp">Gallery</a></li>    
             </ul>
         </nav>
+        <style>
+            main {
+                display: block;
+                background: #172815;
+                text-align: center;
+                color: #ffffff; 
+                font-size: 48px;
+                text-decoration: none;
+            }
+        </style>
         <main>
-            textobject.placeholder
-        </main>
+                <div>Preston, Idaho</div>
+                <div class="herodiv">
+                    <img src="http:">
+                    <section class="stats">
+                        <h3>Statistics</h3>
+                        <p>Label: <span id="value1">Value</span</p>
+                        <p>Label: Value</p>
+                        <p>Label: Value</p>
+                    </section>
+                </div>
+            </main>
         <section>
             textobject.placeholder
         </section>
         <article>
             textobject.placeholder
         </article>
+        <style>
+            footer {
+                background-color: #95B46A;
+            }
+        </style>
         <footer>
-            textobject.placeholder
+            <p>&copy; 2019 | Southeast Idaho Weather<a href="https://www.southeastidahoweather.com"></a></p>
         </footer>
     </body>
 
