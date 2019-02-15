@@ -9,25 +9,25 @@
         <title>Southeast Idaho Weather</title>
     </head>
     <body style="margin: 0px; background: #ffffff;">
-        <p>Click the button to display todays day of the week.</p>
-        <button onclick="myFunction()">Try it</button>
-        <p id="demo"></p>
-        <script>
-        Function myFunction() {
-            var d = new Date();
-            var weekday = new Array(7);
-            weekday[0] = "Sunday";
-            weekday[1] = "Monday";
-            weekday[2] = "Tuesday";
-            weekday[3] = "Wednesday";
-            weekday[4] = "Thursday";
-            weekday[5] = "Friday"; 
-            weekday[6] = "Saturday";
-            var n = weekday[d.getDay()];
-            document.getElementById("demo").innerHTML = n;
-        }
-        </script>
         <header>
+            <p>Click the button to display day of the week.</p>
+            <button onclick="myFunction()">Date</button>
+            <p id="currentDate"></p>
+            <script>
+            Function myFunction(Date) {
+                var d = new Date(current);
+                var weekday = new Array(7);
+                weekday[0] = "Sunday";
+                weekday[1] = "Monday";
+                weekday[2] = "Tuesday";
+                weekday[3] = "Wednesday";
+                weekday[4] = "Thursday";
+                weekday[5] = "Friday"; 
+                weekday[6] = "Saturday";
+                var n = weekday[d.getDay()];
+                document.getElementById("currentDate").innerHTML = n;
+            }
+            </script>   
             <style>
                 img {
                     float: left;
