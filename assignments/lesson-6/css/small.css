@@ -24,6 +24,12 @@ header img {
     height: 9.5rem;
 } 
 
+.snowy {
+    float: right;
+    width: 6.5rem;
+    height: 9.5rem;
+}
+
 <body style="margin: 0px; background: #ffffff;">
 
 body img {
@@ -53,7 +59,6 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #95B46A;
 } 
     nav li {
         float: center;
