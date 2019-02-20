@@ -11,7 +11,7 @@ body  {
  }
  
  h1, h3 {
- color: #FFAD05;
+ color: rgb(9, 51, 4);
  }
  
  h3 {
@@ -19,7 +19,7 @@ body  {
  }
  
  h2, h4 {
- color: #FCFF4B;
+ color: rgb(152, 226, 117);
  }
  
  header {
