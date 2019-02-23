@@ -16,7 +16,7 @@
   }
   
   h1, h3 {
-  color: #FFAD05;
+  color: #ffffff;
   }
   
   h3 {
@@ -24,12 +24,12 @@
   }
   
   h2, h4 {
-  color: #FCFF4B;
+  color: #ffffff;
   }
   
   header {
-      color: #5995ED;
-      background-color: #044389;
+      color: rgb(1, 27, 1);
+      background-color: #4af073;
       font-size: 1rem;
       line-height: 1rem;
       font-family: 'Raleway', sans-serif;
@@ -42,7 +42,8 @@
   }
   
   .logo {
-  height: 5rem;
+  height: 1rem;
+  width: .5rem;
   }
   
   .motto {
@@ -55,28 +56,28 @@
   }
   
   nav {
-      color: #FFF;
-      background-color: #5995ED;
+      color: #ffffff;
+      background-color: rgb(52, 124, 4);
       font-size: 1.375em;
       line-height: 3rem;
       font-family: 'Raleway', sans-serif;
   }
   
   nav a {
-  color: #FFF;
+  color: #ffffff;
   text-decoration: none;
   }
   
   #current-page {
-  background-color: #80CEEC;
+  background-color: rgb(115, 170, 90);
   }
   
   li:hover {
-  background-color: #FFF;
+  background-color: #ffffff;
   }
   
   li:hover a {
-  color: #FFAD05;
+  color: rgb(8, 141, 4);
   }
   
   #menu {
@@ -95,7 +96,7 @@
   }
   
   .weather-summary {
-  background-color: rgba(128,206,236, 0.6);
+  background-color: rgba(5, 197, 5, 0.6);
   width: 250px;
   position: absolute;
   top: 25px;
@@ -114,15 +115,15 @@
   }
   
   article {
-  background-color: #5995ED;
+  background-color: rgb(38, 83, 17);
   padding: 1rem;
   text-align: left !important;
-  border: solid #FFAD05 1px;
+  border: solid rgb(8, 26, 1) 1px;
   }
   
   button {
-  background-color: #044389;
-  color: #FFF;
+  background-color: #09881e;
+  color: #ffffff;
   border: none;
   padding: 1rem;
   text-align: center;
@@ -136,8 +137,8 @@
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
-      color: #FFF;
-      background-color: #5995ED;
+      color: #ffffff;
+      background-color: rgb(42, 119, 55);
   
       font-size: 1rem;
       line-height: 1.5rem;
@@ -148,12 +149,12 @@
   .map {
     max-width: 100%;
     height: auto;
-    box-shadow: 10px 10px 5px #044389;
+    box-shadow: 10px 10px 5px #012006;
   }
   
   footer {
-      color: #FFF;
-      background-color: #80CEEC;
+      color: #ffffff;
+      background-color: rgb(20, 238, 93);
   
       font-size: 1rem;
       line-height: 1rem;
@@ -178,15 +179,15 @@
 .navigation li { display: none; }
 .navigation li:first-child { display: block; }
 .navigation li a { display: block;
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(2, 27, 6, 0.8);
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
 	font-size: 1.25rem;
 }
 .navigation li a:hover {
-	background-color: rgba(200, 200, 200, 1);
-	color: rgba(0, 0, 0, 1);
+	background-color: rgb(246, 250, 245);
+	color: rgb(12, 12, 12);
 }
 .responsive li { display: block; }
 
@@ -198,16 +199,16 @@
 }
 
 .container > section {
-	background: #ddd;
+	background: #ffffff;
 	padding: .5rem;
-	border: 1px solid #bbb;
+	border: 1px solid #ffffff;
 	margin-right: 2px;
 	overflow: auto;
 	/* max-height: 100px; */
 }
 
 .container > section:nth-child(5) {
-	background: #bbeedd;
+	background: #6ef0c4;
 }
 
 .container > section img {
