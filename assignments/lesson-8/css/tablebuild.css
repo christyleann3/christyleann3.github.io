@@ -1,0 +1,28 @@
+form {
+    display: inline;
+    margin: auto;
+    align-content: center;
+}
+
+fieldset {
+    display: inline;
+    padding: 2%;
+}
+    
+fieldset p {
+    margin-bottom: 1%;
+    font-weight: 600;
+}
+    
+legend {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+    
+label, input {
+    display: inline-block;
+}
+    
+label {
+    margin-bottom: -.3em;
+}
