@@ -1,3 +1,8 @@
+p {
+    font-family: "Ubuntu", Ubuntu, sans-serif;
+    colorscheme: #e7f0ed, #e7ffed (data rows) and #628ca6, #7fb9c2 with white and black;
+}
+
 form {
     display: inline;
     margin: auto;
