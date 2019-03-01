@@ -1,11 +1,12 @@
 table {
     font-family: "Ubuntu", sans-serif;
-    border-collapse: collapse;
+    table-layout: auto;
     width: 100%;
 }
 
 thead {
     background: #628ca6;
+    color: black;
     
 }
 
@@ -25,4 +26,5 @@ p:nth-of-type(2, 4, 6, 8) {
 
 tfoot {
     background: #628ca6;
+    color: black;
 }
