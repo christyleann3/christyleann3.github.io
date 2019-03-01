@@ -1,23 +1,18 @@
-header {
+thead {
     background: #628ca6;
     
 }
 
 table {
     font-family: "Ubuntu", sans-serif;
-    border-block-end-color: #628ca6;
     border-collapse: collapse;
     width: 100%;
 }
 
-td, th {
+tbody {
     border: 1px solid #628ca6;
     text-align: left;
     padding: 10px
-}
-
-tr:nth-child() {
-    background-color: #7fb9c2;
 }
 
 p:nth-child(1, 3, 5, 7) {
@@ -26,4 +21,8 @@ p:nth-child(1, 3, 5, 7) {
 
 p:nth-of-type(2, 4, 6, 8) {
     background: #e7ffed;
+}
+
+tfoot {
+    background: #628ca6;
 }
