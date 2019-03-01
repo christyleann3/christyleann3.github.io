@@ -1,3 +1,13 @@
+header {
+    color: #4af073;
+    background-color: #172815;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 nav {
     height: 2.5rem;
     padding-top: .6rem;
@@ -18,11 +28,12 @@ main {
     margin-top: 1rem;
 }
 
-header img {
-    float: left;
-    width: 6.5rem;
-    height: 9.5rem;
-} 
+header img, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .snowy {
     float: right;
@@ -194,12 +205,13 @@ button {
 }
 
 footer {
-    background-color: #95B46A;
-    text-align: center;
-    color: #ffffff;
+    color: #FFF;
+    background-color: #172815;
     font-size: 1rem;
     line-height: 1rem;
     font-family: 'Raleway', sans-serif;
+    width: 70%;
+    margin: auto;
     padding: 1rem;
 }
 
