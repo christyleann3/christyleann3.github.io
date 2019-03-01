@@ -1,25 +1,3 @@
-head {
-    text-align: center;
-    background: #256d1b;
-    padding: 1px;
-    border: 1px solid #709255;
-}
-nav {
-    height: 2.5rem;
-    padding-top: .6rem;
-    background-color: #709255;
-}
-
-nav ul {
-    list-style-type: none;
-    padding-left: 1.75rem;
-}
-
-nav li {
-    display: inline-block;
-    padding-right: 1.75rem;
-}
-
 main {
     margin-top: 1rem;
 }
@@ -34,6 +12,22 @@ header img {
     float: right;
     width: 6.5rem;
     height: 9.5rem;
+}
+
+nav {
+    height: 2.5rem;
+    padding-top: .6rem;
+    background-color: #709255;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 1.75rem;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 1.75rem;
 }
 
 body style {
