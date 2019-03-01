@@ -3,6 +3,7 @@ table {
     table-layout: auto;
     border-collapse: collapse;
     width: 100%;
+    box-shadow: 8px 8px 8px #628ca6;
 }
 
 header {
