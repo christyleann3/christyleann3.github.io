@@ -15,3 +15,10 @@ tr:nth-child(even) {
     background-color: #7fb9c2;
 }
 
+p:nth-child(1, 3, 5, 7) {
+    background: #e7f0ed;
+}
+
+p:nth-of-type(2, 4, 6, 8) {
+    background: #e7ffed;
+}
