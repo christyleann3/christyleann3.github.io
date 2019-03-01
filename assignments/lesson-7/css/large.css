@@ -149,6 +149,7 @@ body  {
 
  .weather-summary p {
   margin: 5px;
+  float: center;
  }
  }
  
@@ -219,6 +220,7 @@ body  {
   z-index: 999;
   padding: 1rem;
   line-height: 1.5rem;
+  float: center;
  }
  
  .fiveDayForecast {
