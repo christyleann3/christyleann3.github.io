@@ -8,12 +8,13 @@ table {
 header {
     background: #628ca6;
     color: black;
+    text-align: center;
     
 }
 
 body {
     border: 1px solid #628ca6;
-    text-align: left;
+    text-align: center;
     padding: 5px
 }
 
@@ -22,15 +23,16 @@ th {
     color: white;
 }
 
-td:nth-child(verticle-odd) {
+td:nth-child() {
     background: #e7f0ed;
 }
 
-td:nth-of-type(verticle-even) {
+td:nth-of-type() {
     background: #e7ffed;
 }
 
 footer {
     background: #628ca6;
     color: black;
+    text-align: center;
 }
