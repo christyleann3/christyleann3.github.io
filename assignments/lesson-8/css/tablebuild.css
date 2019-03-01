@@ -1,10 +1,11 @@
 table {
     font-family: "Ubuntu", sans-serif;
     table-layout: auto;
-    width: 100%;
+    width: 70%;
+    background: #628ca6
 }
 
-thead {
+header {
     background: #628ca6;
     color: black;
     
@@ -24,7 +25,7 @@ p:nth-of-type(2, 4, 6, 8) {
     background: #e7ffed;
 }
 
-tfoot {
+footer {
     background: #628ca6;
     color: black;
 }
