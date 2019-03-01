@@ -58,7 +58,7 @@ header h1, h2 {
 .logo {
     height: 1rem;
     width: .5rem;
-    }
+}
     
 .motto {
     font-size: .5rem;
@@ -92,94 +92,96 @@ nav ul {
     padding: 0;
     overflow: hidden;
 } 
-    nav li {
-        float: center;
+
+nav li {
+    float: center;
 }
-    nav li a {
-        display: block;
-        padding: 8px;
-        color: #ffffff;
-        text-align: center;
-        text-decoration: none;
+
+nav li a {
+    display: block;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
 }
-    nav li a:hover {
-        background-color: #172815;
-    }
+
+nav li a:hover {
+    background-color: #172815;
+}
   
-    li:hover a {
-        color: rgb(8, 141, 4);
+li:hover a {
+    color: rgb(8, 141, 4);
 }
   
-    #menu {
-        list-style: none;
-        padding-inline-start: opx;
-        display: none;
- 
+#menu {
+    list-style: none;
+    padding-inline-start: opx;
+    display: none;
 }
 
 main {max-width:820px;margin:0 auto;}
 
 .herodiv {
-    position: relative;
-    width: 100%;
-    margin: 10px auto;
-    }
+   position: relative;
+   width: 100%;
+   margin: 10px auto;
+}
     
-    .weather-summary {
-    background-color: rgba(5, 197, 5, 0.6);
-    width: 250px;
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    z-index: 999;
-    padding: 10px;
-    line-height: 1.5rem;
-    }
+.weather-summary {
+   background-color: rgba(5, 197, 5, 0.6);
+   width: 250px;
+   position: absolute;
+   top: 25px;
+   left: 25px;
+   z-index: 999;
+   padding: 10px;
+   line-height: 1.5rem;
+}
     
-    .fiveDayForecast {
-        display: none;
-    }
+.fiveDayForecast {
+    display: none;
+}
     
-    .articleimg {
-    width: 100%;
-    }
+.articleimg {
+   width: 100%;
+}
     
-    article {
-    background-color: rgb(38, 83, 17);
-    padding: 1rem;
-    text-align: left !important;
-    border: solid rgb(8, 26, 1) 1px;
-    }
+article {
+  background-color: rgb(38, 83, 17);
+  padding: 1rem;
+  text-align: left !important;
+  border: solid rgb(8, 26, 1) 1px;
+}
     
-    button {
-    background-color: #09881e;
-    color: #ffffff;
-    border: none;
-    padding: 1rem;
-    text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-family: 'Raleway', sans-serif;
-      font-size: 16px;
-    }
+button {
+  background-color: #09881e;
+  color: #ffffff;
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
     
-    .contact {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        color: #ffffff;
-        background-color: rgb(42, 119, 55);
+.contact {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   color: #ffffff;
+   background-color: rgb(42, 119, 55);
+   font-size: 1rem;
+   line-height: 1.5rem;
+   font-family: 'Raleway', sans-serif;
+   padding: 1rem;
+}
     
-        font-size: 1rem;
-        line-height: 1.5rem;
-        font-family: 'Raleway', sans-serif;
-        padding: 1rem;
-    }
-    
-    .map {
-      max-width: 100%;
-      height: auto;
-      box-shadow: 10px 10px 5px #012006;
+.map {
+   max-width: 100%;
+   height: auto;
+   box-shadow: 10px 10px 5px #012006;
+}
 
 .stats {
 	position: absolute;
@@ -216,28 +218,37 @@ nav {
 }
 
 * { margin: 0; padding: 0;}
+
 body { background-color: #ddd; }
+
 header { background-color: #bbb; text-align: center;}
+
 h1 { padding: .5rem; }
 
 nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
+
 .navigation { list-style: none; text-align: center; }
-  .navigation li:first-child { display: block;}
-  .navigation li a { display: block;
+
+.navigation li:first-child { display: block;}
+
+.navigation li a { display: block;
     color: rgba(2, 27, 6, 0.8);
     text-align: center;
     padding: 1rem;
     text-decoration: none;
     font-size: 1.25rem;
 }
+
 .navigation li a:hover {
     background-color: rgb(246, 250, 245);
     color: rgb(12, 12, 12);
 }
-  .navigation li { display: block;}
-  .navigation a {	display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
-  .navigation a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
 
+.navigation li { display: block;}
+
+.navigation a {	display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
+
+.navigation a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
 
 .responsive li { display: block; }
 
@@ -267,6 +278,7 @@ nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
 }
  
 figure {margin: 0;}
+
 figcaption {font-size: .75rem;}
  
 /* medium and up views */
@@ -274,6 +286,6 @@ figcaption {font-size: .75rem;}
     .navigation li:first-child { display: none; }
     .navigation li { display: block; flex: 1 1 auto; }
     .navigation, .container { flex-direction: row; 
-    }
+}
 }
 
