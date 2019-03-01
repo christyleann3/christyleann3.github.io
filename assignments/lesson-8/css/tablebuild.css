@@ -11,17 +11,22 @@ header {
     
 }
 
-tbody {
+body {
     border: 1px solid #628ca6;
     text-align: left;
-    padding: 10px
+    padding: 5px
 }
 
-p:nth-child(1, 3, 5, 7) {
+th {
+    background: #7fb9c2;
+    color: white;
+}
+
+td:nth-child(1, 3, 5, 7) {
     background: #e7f0ed;
 }
 
-p:nth-of-type(2, 4, 6, 8) {
+td:nth-of-type(2, 4, 6, 8) {
     background: #e7ffed;
 }
 
