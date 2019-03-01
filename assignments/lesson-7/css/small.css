@@ -104,8 +104,7 @@ nav ul {
 }
     nav li a:hover {
         background-color: #172815;
-        background-color: #ffffff;
-}
+    }
   
     li:hover a {
         color: rgb(8, 141, 4);

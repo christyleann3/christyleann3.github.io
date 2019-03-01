@@ -23,8 +23,8 @@ body  {
  }
  
  header {
-     color: #5995ED;
-     background-color: #044389;
+     color: #4af073;
+     background-color: #172815;
      font-size: 2rem;
      line-height: 2rem;
      font-family: 'Raleway', sans-serif;
@@ -53,8 +53,8 @@ body  {
      width: 10em;
      margin: auto;
     font-size: 1rem;
-    background-color: rgba(128,206,236, 0.6);
-    border: solid #FFAD05 1px;
+    background-color: #256d1b;
+    border: solid #213a04 1px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +67,7 @@ body  {
  width: 5rem;
  margin-left: 1rem;
  margin-right: 1rem;
- color: #FCFF4B;
+ color: rgb(63, 240, 9);
  line-height: 1.5rem;
  }
  
@@ -84,14 +84,14 @@ body  {
  
  nav {
      color: #FFF;
-     background-color: #5995ED;
+     background-color: #0ac046;
      font-size: 1.5em;
      line-height: 3rem;
      font-family: 'Raleway', sans-serif;
  }
  
  #current-page {
- background-color: #80CEEC;
+ background-color: #1ff58a;
  }
  
  ul {
@@ -100,7 +100,7 @@ body  {
    padding-left: 15%;
    padding-right: 15%;
    overflow: hidden;
-   background-color: #5995ED;
+   background-color: #135805;
    position: -webkit-sticky; /* Safari */
    position: sticky;
    top: 0;
@@ -192,7 +192,7 @@ body  {
  }
  
  li:hover a {
- color: #FFAD05;
+ color: #086d0d;
  background-color: #FFF;
  }
  
@@ -207,7 +207,7 @@ body  {
  }
  
  .weather-summary {
- background-color: rgba(128,206,236, 0.6);
+ background-color: rgba(48, 231, 94, 0.6);
  width: 25%;
  position: absolute;
  top: 2rem;
@@ -221,7 +221,7 @@ body  {
      display: flex;
      flex-flow: row wrap;
      justify-content: center;
- background-color: #044389;
+ background-color: #0fc790;
  position: relative;
  width: 35rem;
  margin: auto;
@@ -234,7 +234,7 @@ body  {
  }
  
  th {
- background-color: #5995ED;
+ background-color: rgb(113, 238, 129);
  padding: 1.5rem;
  font-size: 1rem;
  }
@@ -248,20 +248,20 @@ body  {
  margin: 1rem;
  float: right;
  padding-right: 0px;
- box-shadow: 1rem 1rem .5rem #044389;
+ box-shadow: 1rem 1rem .5rem #012e10;
  }
  
  article {
- background-color: #5995ED;
+ background-color: rgb(77, 156, 101);
  width: 70%;
  padding: 1rem;
  margin: auto;
  text-align: left !important;
- border: solid #FFAD05 1px;
+ border: solid rgb(2, 59, 7) 1px;
  }
  
  button {
- background-color: #044389;
+ background-color: #0bd315;
  color: #FFF;
  border: none;
  padding: 1rem;
@@ -273,7 +273,7 @@ body  {
  }
  
  button:hover {
- background-color: #FFAD05;
+ background-color: rgb(20, 114, 8);
  }
  
  .contact {
@@ -281,7 +281,7 @@ body  {
      flex-flow: row wrap;
      justify-content: space-around;
      color: #FFF;
-     background-color: #5995ED;
+     background-color: rgb(50, 151, 92);
  
      font-size: 1rem;
      line-height: 1.5rem;
@@ -294,12 +294,12 @@ body  {
  .map {
    max-width: 100%;
    height: auto;
-   box-shadow: 1rem 1rem .5rem #044389;
+   box-shadow: 1rem 1rem .5rem #023d0f;
  }
  
  footer {
      color: #FFF;
-     background-color: #80CEEC;
+     background-color: rgb(84, 134, 101);
  
      font-size: 1rem;
      line-height: 1rem;
