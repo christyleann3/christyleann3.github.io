@@ -1,8 +1,8 @@
 table {
     font-family: "Ubuntu", sans-serif;
     table-layout: auto;
+    border-collapse: collapse;
     width: 100%;
-    background: #628ca6
 }
 
 header {
@@ -10,26 +10,30 @@ header {
     color: black;
     text-align: center;
     padding: 5px;
+    font-size: 18px;
     
 }
 
 body {
-    border: 1px solid #628ca6;
+    font-size: 18px;
     text-align: center;
-    padding: 5px
+    padding: none;
+    border: 2px solid #628ca6;
 }
 
 th {
     background: #7fb9c2;
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
-td:nth-child(1, 3, 5, 7) {
+td {
     background: #e7f0ed;
+    padding: 10px;
+    border: 1px solid black;
 }
 
-td:nth-of-type(2, 4, 6, 8) {
+tr:nth-child(even) {
     background: #e7ffed;
 }
 
