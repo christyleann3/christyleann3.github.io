@@ -78,7 +78,9 @@ header img, .headings {
 }
    
 p {
-  align: center;
+  align: left;
+  padding: .5px;
+  margin: 1px;
 }
    
 footer {
