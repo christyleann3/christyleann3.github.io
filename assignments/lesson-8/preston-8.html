@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en-us">
+ <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Southeast Idaho Weather | Preston, Idaho</title>
+	<meta name="description" content="Idaho's best southeastern weather information source.">
+	<link rel="stylesheet" href="css/normalized.css">
+	<link rel="stylesheet" media="screen and (max-width: 750px)" href="css/small.css">
+	<link rel="stylesheet" media="screen and (min-width: 751px)" href="css/large.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	
+ </head>
+ <body>
+	<header> 
+		<img src="images/logo.jpg" alt="logo.jpg" width="auto" height="150vh">
+		<section class="headings"> 
+			<h1>Southeast Idaho Weather</h1>
+			<div class="motto">Southeast Idaho's #1 Weather Site.</div>
+		</section>
+		<div class="current-conditions">
+			<img class="snowy" src="images/snowy.png" alt="Snowy Condition" width="auto" height="115vh"> 
+			<div class="current"><b>Current Conditions</b></div>
+		</div>
+	</header>
+	<nav>
+		<a id="menu-link" onclick="hamburger">&#9776; Menu</a>
+		<ul id="menu" class="navigation responsive">
+			<li><a href="default.asp">Home</a></li>
+			<li id="current-page"><a href="preston.asp">Preston</a></li>
+			<li><a href="soda_springs.asp">Soda Springs</a></li>
+			<li><a href="fish_haven.asp">Fish Haven</a></li>
+			<li><a href="storm_center.asp">Storm Center</a></li>
+			<li><a href="gallery.asp">Gallery</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h1>Preston, Idaho</h1>
+		<div class="herodiv">
+	<picture>
+		<source srcset="images/aerial-view.jpg" media="(max-width: 655px)">
+		<img class="herodiv" src="images/aerial-view.jpg" alt="aerial-view" width="auto" height="700vh">
+	</picture>
+		
+	<article>
+		<img class="articleimg" src="images/cit230_image_franklinOriginal.jpeg" alt="cit230_image_franklinOriginal.jpeg" width="auto" height="175vh">
+		<h2>ANNUAL WEATHER SUMMARY<br>NOVEMBER 2018 TO OCTOBER 2019</h2> 
+		<h3>by The Old Famer's Almanac</h3>
+		<p>Winter temperatures and precipitation will be above normal, on average, with the coldest periods in late December, early January, and early February. Snowfall will be above normal in the north and below normal in the south, with the snowiest periods in late November, late December, early and late January, mid- to late February, and early March. April and May will have temperatures below normal in the north and above normal in the south and will be slightly drier than normal. Summer will be hotter and slightly drier than normal, with the hottest periods in mid- and late June and mid- to late July. September and October will be warmer than normal, with near-normal precipitation.</p>
+		<p><button onclick="window.location.href='https://www.almanac.com/weather/longrange/id/Preston#'></button></p>
+	</article>
+
+	<div class="contact">
+	<p><strong>Southeast Idaho Weather</strong>
+		<br>1234 Hunter Rd.
+		<br>Preston, ID 83263</p>
+	<p> &#9742; 888.333.0000
+		<br>
+		&#9993; contact@southeastidahoweather.com
+	</p>
+	<img src="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173" width="auto" height="175vh">
+	</main>
+	
+	<footer>
+		<div>&copy; 2019 | Southeast Idaho Weather<br>1234 Hunter Rd., Preston, Idaho, 83263></div>
+	<script src="scripts/currentdate.js"></script>
+
+	<script src="scripts/hamburger.js"></script>
+
+	<script src="scripts/windchill.js"></script>
+
+	</footer>
+ </body>
+	
+</html>
+
