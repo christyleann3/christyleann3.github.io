@@ -4,26 +4,26 @@ body  {
   font-family: 'Roboto Light', sans-serif;
   text-align: center;
   padding: 0;
-}
-   
-h1, h2, h3, h4, h5 {
+ }
+ 
+ h1, h2, h3, h4, h5 {
   font-family: 'Raleway', sans-serif;
   line-height: 1.5rem;
-}
-   
-h1, h3 {
+ }
+ 
+ h1, h3 {
   color: #FFF;
-}
-   
-h3 {
+ }
+ 
+ h3 {
   margin: 0px;
-}
-   
-h2, h4 {
+ }
+ 
+ h2, h4 {
   color: rgb(152, 226, 117);
-}
-   
-header {
+ }
+ 
+ header {
   color: #4af073;
   background-color: #172815;
   font-size: 2rem;
@@ -32,25 +32,25 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-   
-header img, .headings {
+ }
+ 
+ header img, .headings {
   display: inline-block;
   vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
-}
-   
-.logo {
-   height: 8rem;
-}
-   
-.motto {
+ }
+ 
+ .logo {
+  height: 8rem;
+ }
+ 
+ .motto {
   font-size: .5em;
   line-height: 2rem;
-}
-   
-.current-conditions {
+ }
+ 
+ .current-conditions {
   width: 10em;
   margin: auto;
   font-size: 1rem;
@@ -58,9 +58,9 @@ header img, .headings {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-}
-   
-.current {
+ }
+ 
+ .current {
   display: flex;
   flex-wrap: wrap;
   width: 5rem;
@@ -68,32 +68,32 @@ header img, .headings {
   margin-right: 1rem;
   color: rgb(63, 240, 9);
   line-height: 1.5rem;
-}
-   
-.conditions-img {
+ }
+ 
+ .conditions-img {
   height: 3rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-   
-#menu-link {
+ }
+ 
+ #menu-link {
   display: none;
-}
-   
-nav {
+ }
+ 
+ nav {
   color: #FFF;
   background-color: #0ac046;
   font-size: 1.5em;
   line-height: 3rem;
   font-family: 'Raleway', sans-serif;
-}
-   
-#current-page {
+ }
+ 
+ #current-page {
   background-color: #1ff58a;
-}
-   
-ul {
+ }
+ 
+ ul {
   list-style-type: none;
   margin: 0;
   padding-left: 15%;
@@ -104,115 +104,114 @@ ul {
   position: sticky;
   top: 0;
   max-height: 3em;
-}
-   
-@media (max-width: 1353px) {
+ }
+ 
+ @media (max-width: 1353px) {
   ul {
    padding-left: 10%;
    padding-right: 10%;
-}
-}
-   
-@media (max-width: 1186px) {
+ }
+ }
+ 
+ @media (max-width: 1186px) {
   ul {
    padding-left: 8%;
    padding-right: 8%;
-}
-}
-   
-@media (max-width: 1130px) {
+ }
+ }
+ 
+ @media (max-width: 1130px) {
   ul {
    padding-left: 5%;
    padding-right: 5%;
-}
-}
-   
-@media (max-width: 1057px) {
+ }
+ }
+ 
+ @media (max-width: 1057px) {
   ul {
    padding-left: 10%;
    padding-right: 10%;
-}
+ }
+ h2 {
+  font-size: 1.2em;
+ }
 
-h2 {
-  font-size: 1.2em;
-}
-  
-nav {
+ nav {
   font-size: 1.2em;
 }
 }
-   
-@media (max-width: 1055px) {
+ 
+ @media (max-width: 1055px) {
   ul {
    padding-left: 5%;
    padding-right: 5%;
-}
-  
-.weather-summary p {
+ }
+
+ .weather-summary p {
   margin: 5px;
   float: center;
-}
-}
-   
-@media (max-width: 912px) {
+ }
+ }
+ 
+ @media (max-width: 912px) {
   ul {
-    padding-left: 2%;
-    padding-right: 2%;
-}
-}
-   
-@media (max-width: 856px) {
+   padding-left: 2%;
+   padding-right: 2%;
+ }
+ }
+ 
+ @media (max-width: 856px) {
   ul {
    padding-left: opx;
    padding-right: 0px;
-}
-  
-nav {
+ }
+
+ nav {
   font-size: 1em;
-}
-  
-.weather-summary p {
-  font-size: .8em;
-}
-  
-header {
+ }
+
+ .weather-summary p {
+ font-size: .8em;
+ }
+
+ header {
   font-size: 1.5rem;
-}
-}
-   
-li {
+ }
+ }
+ 
+ li {
   display: inline;
   float: left;
-}
-  
-li:hover {
+ }
+ 
+ li:hover {
   background-color: #FFF;
-}
-   
-li a {
+ }
+ 
+ li a {
   display: block;
   color: #FFF;
   text-align: center;
   padding: 1rem 1.5rem;
   text-decoration: none;
-}
-   
-li:hover a {
+ }
+ 
+ li:hover a {
   color: #086d0d;
   background-color: #FFF;
-}
-   
-.hero-img {
+ }
+ 
+ .hero-img {
   width: 100%
-}
-   
-.hero-container {
+ }
+ 
+ .hero-container {
   position: relative;
   width: 75%;
   margin: auto;
-}
-   
-.weather-summary {
+ }
+ 
+ .weather-summary {
   background-color: rgba(48, 231, 94, 0.6);
   width: 25%;
   position: absolute;
@@ -222,9 +221,9 @@ li:hover a {
   padding: 1rem;
   line-height: 1.5rem;
   float: center;
-}
-   
-.fiveDayForecast {
+ }
+ 
+ .fiveDayForecast {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -232,42 +231,42 @@ li:hover a {
   position: relative;
   width: 35rem;
   margin: auto;
-}
-   
-table {
+ }
+ 
+ table {
   background-color: #fff;
   margin: 1.5rem;
   border: solid white .2rem;
-}
-   
-th {
+ }
+ 
+ th {
   background-color: rgb(113, 238, 129);
   padding: 1.5rem;
   font-size: 1rem;
-}
-   
-td {
+ }
+ 
+ td {
   padding: .2rem;
-}
-   
-.articleimg {
+ }
+ 
+ .articleimg {
   height: 20rem;
   margin: 1rem;
   float: right;
   padding-right: 0px;
   box-shadow: 1rem 1rem .5rem #012e10;
-}
-   
-article {
+ }
+ 
+ article {
   background-color: rgb(77, 156, 101);
   width: 70%;
   padding: 1rem;
   margin: auto;
   text-align: left !important;
   border: solid rgb(2, 59, 7) 1px;
-}
-   
-button {
+ }
+ 
+ button {
   background-color: #0bd315;
   color: #FFF;
   border: none;
@@ -277,13 +276,13 @@ button {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
-}
-   
-button:hover {
+ }
+ 
+ button:hover {
   background-color: rgb(20, 114, 8);
-}
-   
-.contact {
+ }
+ 
+ .contact {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -295,21 +294,21 @@ button:hover {
   width: 70%;
   margin: auto;
   padding: 1rem;
-}
-   
-.map {
+ }
+ 
+ .map {
   max-width: 100%;
   height: auto;
   box-shadow: 1rem 1rem .5rem #023d0f;
-}
-
-footer {
+ }
+ 
+ footer {
   color: #FFF;
   background-color: #172815;
   font-size: 1rem;
   line-height: 1rem;
   font-family: 'Raleway', sans-serif;
-  width: 97%;
+  width: 70%;
   margin: auto;
   padding: 1rem;
-}
+ }
