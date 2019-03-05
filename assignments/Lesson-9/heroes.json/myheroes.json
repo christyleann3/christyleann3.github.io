@@ -1,0 +1,42 @@
+{
+    "squadname" : "Christy's Hero Squad",
+    "homeState" : "Oklahoma",
+    "yearStarted" : "1980",
+    "active" : "true",
+    "members" : [
+        {
+            "name" : "Oleta Mae",
+            "age" : 60
+            "secretIdentity" : "Grandma",
+            "powers" : [
+                "Miracle Grower",
+                "Big Hearted Server",
+                "Switches"
+            ]
+
+        },
+        {
+            "name" : "Ernest Wilson",
+            "age" : 65,
+            "secretIdentity" : "Old Koot",
+            "powers" : [
+                "Dog Whisper",
+                "Handiman",
+                "Comedian"
+            ]
+        },
+        {
+            "name" : "Jesus Christ",
+            "age" : "Unknown",
+            "secretIdentity" : "Savior",
+            "powers" : [
+                "Redeemer",
+                "Magician",
+                "Creator",
+                "Teleportation",
+                "Controls Elements"
+            ]
+        }
+    ]
+
+}
