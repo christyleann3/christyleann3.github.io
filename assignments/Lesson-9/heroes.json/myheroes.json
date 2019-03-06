@@ -1,7 +1,7 @@
 {
     "squadname" : "Christy's Hero Squad",
     "homeState" : "Oklahoma",
-    "yearStarted" : "1980",
+    "yearStarted" : 1980,
     "active" : "true",
     "members" : [
         {
