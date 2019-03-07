@@ -26,8 +26,8 @@
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
-    request.send();
-    request.onload = function() {
+    request.send(myheroes.json);
+    request.onload = function(myheroes.json) {
       var myheroes = request.response;
       populateHeader(myheroes);
       showHeroes(myheroes);
