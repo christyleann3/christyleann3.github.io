@@ -1,15 +1,13 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
-const newLocal = 'https://christyleann3.github.io/assignments/lesson-9/heroes.json/myheroes.json';
-var requestURL = newLocal;
-var request = new XMLHttpRequest(https://christyleann3.github.io/assignments/lesson-9/heroes.json/myheroes.json);
+var requestURL = 'https://christyleann3.github.io/assignments/lesson-9/heroes.json/myheroes.json';
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 request.onload = function() {
-    var superHeroes = request.response;
-    populateHeader(superHeroes);
-    showHeroes(superHeroes);
+    var myheroes= request.response;
+    populateHeader(myheroes);
+    showHeroes(myheroes);
   }
   function populateHeader(jsonObj) {
     var myH1 = document.createElement('h1');
