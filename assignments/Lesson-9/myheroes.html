@@ -27,7 +27,7 @@
     request.open('GET', requestURL);
     request.responseType = 'json';
     request.send(myheroes.json);
-    request.onload = function(myheroes.json) {
+    request.onload = function() {
       var myheroes = request.response;
       populateHeader(myheroes);
       showHeroes(myheroes);

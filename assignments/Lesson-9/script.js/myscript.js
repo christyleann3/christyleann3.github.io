@@ -4,7 +4,7 @@ var requestURL = 'https://christyleann3.github.io/assignments/lesson-9/heroes.js
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
-request.onload = function() {
+request.onload = function(myheroes.json) {
     var myheroes= request.response;
     populateHeader(myheroes);
     showHeroes(myheroes);
