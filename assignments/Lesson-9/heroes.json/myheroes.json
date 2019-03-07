@@ -1,38 +1,38 @@
 {
-  "squadName" : "Super hero squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
+  "squadName" : "The Fantastic Trio",
+  "homeTown" : "Blanchard",
+  "formed" : 1980,
+  "secretBase" : "Stone Glen",
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "name" : "Grandma",
+      "age" : 63,
+      "secretIdentity" : "Oleta Wilson",
       "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "Miracle Grower",
+        "Lightening Speed",
+        "Telepathic"
       ]
     },
     {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "name" : "Old Koot",
+      "age" : 67,
+      "secretIdentity" : "Ernest Wilson",
       "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
+        "Acid Spit",
+        "Dog Whisperer",
+        "Superhuman Strength"
       ]
     },
     {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
+      "name" : "The Savior",
+      "age" : "unknown",
+      "secretIdentity" : "Jesus Christ",
       "powers" : [
         "Immortality",
-        "Heat Immunity",
-        "Inferno",
+        "Commands Elements",
+        "Thought Reader",
         "Teleportation",
         "Interdimensional travel"
       ]
