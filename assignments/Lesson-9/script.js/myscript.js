@@ -1,7 +1,8 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
-var requestURL = 'https://christyleann3.github.io/assignments/lesson-9/heroes.json/myheroes.json';
-var request = new XMLHttpRequest();
+const newLocal = 'https://christyleann3.github.io/assignments/lesson-9/heroes.json/myheroes.json';
+var requestURL = newLocal;
+var request = new XMLHttpRequest(https://christyleann3.github.io/assignments/lesson-9/heroes.json/myheroes.json);
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
