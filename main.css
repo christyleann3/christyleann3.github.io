@@ -3,6 +3,7 @@
 
 /* * is a wildcard referring to all elements. */
 * { margin: 0; box-sizing: border-box; } 
+html { font-size: calc(1em + 1vw) }
 
 body { 
     font-size: 16px; 
@@ -12,7 +13,6 @@ body {
 }
 
 h1 {
-    font-size: 2.3rem  (rem is a unit of measure);
     color: green;
 }
 
