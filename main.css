@@ -28,7 +28,7 @@ header, main, footer {
     max-width: 16xpx;
 }
 
-header, footer, footer a {
+header, footer {
     text-align: center;
     background-color: #008000;
     color: #ffffff;
