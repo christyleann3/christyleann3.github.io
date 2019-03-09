@@ -12,6 +12,9 @@ body {
 
 h1 {
     color: #ffffff;
+    background-color: #008000;
+    color: #ffffff;
+    text-align: center;
 }
 
 h2 {
@@ -24,9 +27,6 @@ header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 16xpx;
-    background-color: #008000 !important;
-    color: #ffffff;
-    text-align: center;
 }
 
 header, footer, footer a {
