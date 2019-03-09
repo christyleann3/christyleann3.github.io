@@ -1,0 +1,114 @@
+nav {
+    height: 2.5rem;
+    padding-top: .6rem;
+    background-color: #709255
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 1.75rem;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 1.75rem;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+header img {
+    float: left;
+    width: 6.5rem;
+    height: 9.5rem;
+} 
+
+.snowy {
+    float: right;
+    width: 6.5rem;
+    height: 9.5rem;
+}
+
+body style {
+    margin: 0px; background: #ffffff;
+} 
+
+body img {
+    float: right;
+    width: 12.5rem;
+    height: 3.5rem;
+}
+
+header h1, h2 {
+    display: block;
+    background: #256d1b;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+header h1 {
+    font-size: 60px;
+    background: #256d1b;  
+} 
+header h2 {
+    font-size: 30px;
+    background: #256d1b; 
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+    nav li {
+        float: center;
+}
+    nav li a {
+        display: block;
+        padding: 8px;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+}
+    nav li a:hover {
+        background-color: #172815;
+}
+
+main {max-width:820px;margin:0 auto;}
+
+.herodiv {margin: 10px auto;position: relative;}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #fff;
+}
+
+footer {
+    background-color: #95B46A;
+    text-align: center;
+}
+
+* { margin: 0; padding: 0;}
+body { background-color: #ddd; }
+header { background-color: #bbb; text-align: center;}
+h1 { padding: .5rem; }
+
+nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
+.navigation { list-style: none; text-align: center; }
+  .navigation li:first-child { display: block;}
+  .navigation li { display: none;}
+  .navigation a {	display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
+  .navigation a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+	.responsive li { display: block; }
+

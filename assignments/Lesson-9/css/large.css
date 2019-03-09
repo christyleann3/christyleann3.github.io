@@ -1,0 +1,21 @@
+/* put media query in this file */
+/* change any styling that is different in desktop view inside media query */
+
+/* For mobile phones: */
+.container {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    /* For desktop: */
+  
+  .container {
+    width: 1000px;}
+  }
+  
+  /* Media Query for medium + screens */
+  @media only screen and (min-width: 45em) {
+  .navigation li:first-child { display: none;	}
+  .navigation li { display: inline-block; margin-right: 1rem;}	
+  .navigation li a { color: yellow;}
+  }
