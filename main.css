@@ -7,11 +7,11 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: Ubuntu, sans-serif;
-    color: #ffffff;
+    color: #000000;
 }
 
 h1 {
-    color: green;
+    color: #ffffff;
 }
 
 h2 {
@@ -33,7 +33,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: 48px;
+    width: 200px;
     height: auto;
     float: right;
 }
