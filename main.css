@@ -1,12 +1,7 @@
 /* CIT 230 - Assignment Portal CSS Template */
 /* You may use #HEX or color names */
 
-html { 
-    font-size: calc(1em + 1vw);
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
+html { font-size: calc(1em + 1vw) }
 
 body { 
     font-size: 16px; 
