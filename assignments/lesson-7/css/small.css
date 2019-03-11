@@ -2,7 +2,14 @@ nav {
     height: 2.5rem;
     padding-top: .6rem;
     background-color: #709255;
-    display: flex;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 nav ul {
