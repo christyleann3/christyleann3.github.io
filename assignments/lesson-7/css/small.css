@@ -1,7 +1,8 @@
 nav {
     height: 2.5rem;
     padding-top: .6rem;
-    background-color: #709255
+    background-color: #709255;
+    display: flex;
 }
 
 nav ul {
@@ -16,6 +17,7 @@ nav li {
 
 main {
     margin-top: 1rem;
+    display: flex;
 }
 
 header img {
