@@ -1,7 +1,15 @@
 nav {
     height: 2.5rem;
     padding-top: .6rem;
-    background-color: #709255
+    background-color: #709255;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 nav ul {
@@ -18,6 +26,28 @@ main {
     margin-top: 1rem;
 }
 
+section {
+    margin: 1rem;
+    max-width: 500px;
+    background-color: lightgreen;
+    padding: 1rem;
+    border: 1px solid #444;
+}
+   
+div {
+    margin: 1rem;
+    background-color: #eee;
+    padding: 1rem;
+}
+   
+hr {
+    border: 0.5px solid #444;
+}
+   
+strong {
+    color: green;
+}
+   
 header img {
     float: left;
     width: 6.5rem;
