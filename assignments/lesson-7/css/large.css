@@ -19,3 +19,9 @@
 .navigation li { display: inline-block; margin-right: 1rem;}	
 .navigation li a { color: yellow;}
 }
+
+@media (min-width: 45em) {
+	.navigation li:first-child { display: none;	}
+	.navigation li { display: block; flex: 1 1 auto; }
+	.navigation, .container { flex-direction: row; }
+}
