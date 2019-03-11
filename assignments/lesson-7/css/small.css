@@ -26,6 +26,28 @@ main {
     margin-top: 1rem;
 }
 
+section {
+    margin: 1rem;
+    max-width: 500px;
+    background-color: lightgreen;
+    padding: 1rem;
+    border: 1px solid #444;
+}
+   
+div {
+    margin: 1rem;
+    background-color: #eee;
+    padding: 1rem;
+}
+   
+hr {
+    border: 0.5px solid #444;
+}
+   
+strong {
+    color: green;
+}
+   
 header img {
     float: left;
     width: 6.5rem;
