@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Southeast Idaho Weather</title>
+    <meta name="description" content="Idaho's best southeastern weather information source.">
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+ </head>
+ <body>
+    <header>
+        <img src="images/logo.jpg" alt="logo.jpg">
+        <section class="headings"> 
+            <h1>Southeast Idaho Weather</h1> 
+            <div class="motto">Southeast Idaho's #1 Weather Site.</div> 
+        </section>
+        <div class="current-conditions">
+            <img class="snowy" src="images/snowy.png" alt="Current Condition: Snowy"> 
+            <div class="current"><b>Current Conditions</b></div>
+        </div>    
+    </header>
+      <nav>
+         <ul>
+            <li><a href="#" title="Home">Home</a></li>
+            <li id="current-page"><a href="#" title="preston">Preston</a></li>  
+            <li><a href="#" title="soda springs">Soda Springs</a></li>   
+            <li><a href="#" title="fish haven">Fish Haven</a></li>   
+            <li><a href="#" title="storm center">Storm Center</a></li>   
+            <li>
+               <div>
+                  <a href="#" title="gallery">Gallery</a>
+                  <input type="gallery" value="gallery" onclick="link.href='https://christyleann3.github.io/assignments/lesson-7/gallery-7.html';">
+               </div>
+            </li>    
+         </ul>
+      </nav>
+      <main>
+            <h1>Preston, Idaho</h1>
+            <div class="herodiv">
+            <script src="javascript/currentdate.js"></script>    
+            <script src="javascript/towns.js"></script>
+            <picture>
+               <source srcset="images/aerial-view.jpg" media="(max-width: 655px)">
+               <img src="images/aerial-view.jpg" alt="aerial-view.jpg">
+            </picture>      
+          <section class="stats">
+            <h3>Statistics</h3>
+            <p>Windchill</p>
+            <hr>
+            <p><em>Label</em>: <span id="somevalue">59</span> units.</p>
+            <hr>
+            <div id="output"></div>
+            <div id="datestuff"></div>
+          </section>
+         </div>
+      </main>
+      <section>
+          <div class="article">News Article</div>
+           <img src="images/cit230_image_franklinOriginal.jpeg" alt="cit230_image_franklinOriginal.jpeg">
+           <p>Get the best hamburgers in town.</p>
+           <nav>
+                <ul class="navigation">
+                    <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="#" title="Home">Home</a></li>
+                    <li><a href="#" title="About">About</a></li>
+                    <li><a href="#" title="Service">Service</a></li>
+                    <li><a href="#" title="History">History</a></li>
+                    <li><a href="#" title="Contact">Contact</a></li>
+                </ul>
+           </nav>
+      </section>
+      <section>
+            <h3>ANNUAL WEATHER SUMMARY NOVEMBER 2018 TO OCTOBER 2019</h3>
+            <h4>By: The Farmers Almanac </h4>
+            <p>Winter temperatures and precipitation will be above normal, on average, with the coldest periods in late December, early January, and early February. Snowfall will be above normal in the north and below normal in the south, with the snowiest periods in late November, late December, early and late January, mid- to late February, and early March. April and May will have temperatures below normal in the north and above normal in the south and will be slightly drier than normal. Summer will be hotter and slightly drier than normal, with the hottest periods in mid- and late June and mid- to late July. September and October will be warmer than normal, with near-normal precipitation.</p>>
+      </section>
+    
+    <script src="javascript/hamburger.js"></script>
+
+	<script src="javascript/windchill.js"></script>
+
+      <footer>
+            <p>&copy; 2019 | Southeast Idaho Weather<br>1234 Hunter Rd., Preston, Idaho, 12345</p>
+      </footer>
+ </body>
+
+</html>

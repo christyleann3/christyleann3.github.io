@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Southeast Idaho Weather | Preston, Idaho</title>
+	<meta name="description" content="Idaho's best southeastern weather information source.">
+	<link rel="stylesheet" href="css/normalized.css">
+	<link rel="stylesheet" media="screen and (max-width: 750px)" href="css/small.css">
+	<link rel="stylesheet" media="screen and (min-width: 751px)" href="css/large.css">
+</head>
+<body>
+	<header> 
+        <img src="images/logo.jpg" alt="logo.jpg" width="auto" height="150vh">
+        <section class="headings"> 
+			<h1>Southeast Idaho Weather</h1>
+			<div class="motto">Southeast Idaho's #1 Weather Site.</div>
+        </section>
+        <script src="javascript/currentdate.js"></script>
+    </header>
+	<nav>
+		<a id="menu-link" onclick="hamburger">&#9776; Menu</a>
+		<ul id="menu" class="navigation responsive">
+			<li id="current-page">
+                <a href="default.asp">Home</a>
+                <input id="home" onclick="link.href='https://christyleann3.github.io/assignments/lesson-9/weathersiteindex.html';">
+            </li>
+			<li>
+                <a href="preston.asp">Preston</a>
+                <input id="preston" onclick="link.href='https://christyleann3.github.io/assignments/lesson-8/preston-8.html';">
+            </li>
+			<li><a href="soda_springs.asp">Soda Springs</a></li>
+			<li><a href="fish_haven.asp">Fish Haven</a></li>
+			<li>
+                <a href="storm_center.asp">Storm Center</a>
+                <input id="storm center" onclick="link.href='https://christyleann3.github.io/assignments/lesson-8/stormcenter.html';">
+            </li>
+			<li><a href="gallery.asp">Gallery</a></li>
+		</ul>
+    </nav>
+    <main>
+        <script src="javascript/towns.js"></script>     
+        
+    </main>
+    <footer>
+		<div>&copy; 2019 | Southeast Idaho Weather<br>1234 Hunter Rd., Preston, Idaho, 83263></div>
+	    <script src="javascript/hamburger.js"></script>
+
+	    <script src="javascript/windchill.js"></script>
+	</footer>
+</body>
+	
+</html>
