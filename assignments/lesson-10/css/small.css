@@ -19,9 +19,22 @@ nav ul {
     padding-left: 1.75rem;
 }
 
+nav {
+    height: 2.5rem;
+    padding-top: .6rem;
+    background-color: #709255;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+}
 nav li {
     display: inline-block;
     padding-right: 1.75rem;
+    background-color: #000
 }
 
 nav ul {

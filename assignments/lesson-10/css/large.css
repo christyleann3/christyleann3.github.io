@@ -18,8 +18,16 @@
     .navigation li:first-child /*{ display: none;}*/
     .navigation li { display: inline-block; margin-right: 1rem;}	
     .navigation li a { color: #ffffff;}
-    .insidebox { height: 160px; flex-direction: row;}
-    header img { align-self: center; max-height: 100%;}
+
+    nav li { background-color: none;}
+    .insidebox { 
+        height: 160px; 
+        flex-direction: row;
+    }
+    header img { 
+        align-self: center; 
+        max-height: 100%;
+    }
     header h1 { 
         font-size: 55px; 
         padding: 15px; 
@@ -27,15 +35,11 @@
         align-items: center;
     } 
     .flexbox { flex-direction: row;}
+
     .button { display: none;}
+
     .citybox1, .citybox2, .citybox 3 {
-        border: 1px solid #000;
-        margin: 0 auto;
         width: 32%;
-        height: 100px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        padding: 5px;
     }
 }
  
