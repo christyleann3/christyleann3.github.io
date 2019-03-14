@@ -4,6 +4,8 @@ nav {
     background-color: #709255;
 }
 
+a { text-decoration: none;}
+
 .navigation {
 	list-style-type: none;
 	margin: 0;

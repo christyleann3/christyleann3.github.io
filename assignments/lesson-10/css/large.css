@@ -22,6 +22,7 @@
     header img { align-self: center; max-height: 100%;}
     header h1 { font-size: 55px; background: #256d1b;} 
     .flexbox { flex-direction: row;}
+    .button { display: none;}
 }
  
 @media (min-width: 45em) {
