@@ -20,6 +20,7 @@
     .navigation li a { color: #ffffff;}
 
     nav li { background-color: none;}
+    
     .insidebox { 
         height: 160px; 
         flex-direction: row;
