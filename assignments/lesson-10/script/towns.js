@@ -1,4 +1,4 @@
-var header = document.querySelector('header');
+/*var header = document.querySelector('header');*/
 var section = document.querySelector('section');
 var requestURL = 'https://christyleann3.github.io/assignments/lesson-10/json/towns.json';
 var request = new XMLHttpRequest();
