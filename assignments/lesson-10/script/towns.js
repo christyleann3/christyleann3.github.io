@@ -1,6 +1,6 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
-var requestURL = 'https://christyleann3.github.io/assignments/lesson-9/json/towns.json';
+var requestURL = 'https://christyleann3.github.io/assignments/lesson-10/json/towns.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -8,7 +8,7 @@ request.send();
 request.onload = function() {
     var towns = request.response;
     populateHeader(towns);
-    showHeroes(towns);
+    showTowns(towns);
   }
   function populateHeader(jsonObj) {
     var towns = document.createElement('h1');
@@ -19,7 +19,7 @@ request.onload = function() {
     myPara.textContent = 'Towns: ' + jsonObj['Towns'];
     header.appendChild(myPara);
   }
-  function showHeroes(jsonObj) {
+  function showTowns(jsonObj) {
     var towns = jsonObj['towns'];
         
     for (var i = 0; i < towns.length; i++) {
