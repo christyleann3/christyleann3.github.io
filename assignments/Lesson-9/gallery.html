@@ -22,7 +22,7 @@
         <script src="javascript/currentdate.js"></script>
     </header>
 	<nav>
-		<button onclick="toggleMenu()">&#9776; Menu</button>
+		<a id="menu-link" onclick="hamburger">&#9776; Menu</a>
 		<ul id="menu" class="navigation responsive">
 			<li id="current-page">
                 <a href="default.asp">Home</a>
@@ -45,20 +45,16 @@
 		</ul>
     </nav>
     <main>
-		<div class="flexbox">
-		<div class="citybox1">Preston</div>
-		<div class="citybox2">Soda Springs</div>
-		<div class="citybox3">Fish Haven</div>	
-		</div>
-        <script src="javascript/towns.js"></script>     
-        
+        <div class="photos">
+
+        </div>
     </main>
     <footer>
-		<div>&copy; 2019 | Southeast Idaho Weather<br>1234 Hunter Rd., Preston, Idaho, 83263></div>
-	    <script src="javascript/hamburger.js"></script>
-
-	    <script src="javascript/windchill.js"></script>
-	</footer>
-</body>
-	
-</html>
+            <div>&copy; 2019 | Southeast Idaho Weather<br>1234 Hunter Rd., Preston, Idaho, 83263></div>
+            <script src="javascript/hamburger.js"></script>
+    
+            <script src="javascript/windchill.js"></script>
+        </footer>
+    </body>
+        
+    </html>
