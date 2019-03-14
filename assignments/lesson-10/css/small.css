@@ -64,7 +64,7 @@ body style {
     margin: 0px; background: #ffffff;
 } 
 
-body img {
+body id {
     float: right;
     width: 12.5rem;
     height: 3.5rem;
