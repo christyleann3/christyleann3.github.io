@@ -15,12 +15,17 @@
   
 /* Media Query for medium + screens */
 @media only screen and (min-width: 45em) {
-    .navigation li:first-child { display: none;	}
+    .navigation li:first-child /*{ display: none;}*/
     .navigation li { display: inline-block; margin-right: 1rem;}	
-    .navigation li a { color: yellow;}
+    .navigation li a { color: #ffffff;}
     .insidebox { height: 160px; flex-direction: row;}
     header img { align-self: center; max-height: 100%;}
-    header h1 { font-size: 55px; background: #256d1b;} 
+    header h1 { 
+        font-size: 55px; 
+        padding: 15px; 
+        display: flex;
+        align-items: center;
+    } 
     .flexbox { flex-direction: row;}
     .button { display: none;}
 }
