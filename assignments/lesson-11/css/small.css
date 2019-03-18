@@ -1,0 +1,201 @@
+nav {
+    height: 2.5rem;
+    padding-top: .6rem;
+    background-color: #709255;
+}
+
+a { text-decoration: none;}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 1.75rem;
+}
+
+nav {
+    height: 2.5rem;
+    padding-top: .6rem;
+    background-color: #709255;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 1.75rem;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 1.75rem;
+    background-color: #000
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 820px;
+    background-color: #000;
+    height: 60px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+    nav li {
+        float: center;
+}
+    nav li a {
+        display: block;
+        padding: 8px;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+}
+    nav li a:hover {
+        background-color: #172815;
+}
+
+.navigation { list-style: none; text-align: center;}
+  .navigation li:first-child /*{ display: block;}*/
+  .navigation li { display: none;}
+  .navigation a { display: block; color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
+  .navigation a:hover {	color: #172815; background-color: #fff;}
+
+main {
+    margin-top: 1rem;
+}
+
+/*header*/
+
+.headings {
+    margin: 0 auto;
+    max-width: 820px;
+    background-color: #95B46A;
+    padding: 1rem;
+    border: 1px solid #444;
+}
+
+header img {
+    align-self: center;
+    max-height: 150px;
+} 
+
+.insidebox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #eee;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+header h1, h2 {
+     display: block;
+     background: #256d1b;
+     text-align: center;
+     color: #ffffff;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ header h1 {
+     font-size: 40px;
+     background: #256d1b;  
+ } 
+
+ header h2 {
+     font-size: 30px;
+     background: #256d1b; 
+ }
+
+ header { background-color: #bbb; text-align: center; margin: 0 auto;}
+
+/*end of header*/
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}    
+
+.citybox1, .citybox2, .citybox 3 {
+    border: 1px solid #000;
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+hr {
+    border: 0.5px solid #444;
+}
+   
+strong {
+    color: green;
+}
+
+.snowy {
+    float: right;
+    width: 6.5rem;
+    height: 9.5rem;
+}
+
+body style {
+    margin: 0px; background: #ffffff;
+} 
+
+/*body img {
+    float: right;
+    width: 12.5rem;
+    height: 3.5rem;
+}*/
+
+
+main {max-width:820px; margin:0 auto;}
+
+.herodiv {margin: 10px auto; position: relative;}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#eee, #95B46A);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #fff;
+}
+
+footer {
+    max-width: 820px;
+    margin: 0 auto;
+    background-color: #95B46A;
+    text-align: center;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box;}
+body { background-color: #ddd; }
+
+h1 { padding: .5rem; }
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+	.responsive li { display: block; }
+
