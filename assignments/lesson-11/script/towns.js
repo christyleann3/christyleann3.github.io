@@ -3,7 +3,7 @@ var section = document.querySelector('section');
 $.getJSON("towns.json", function(data) {
   console.log(data);
 });
-var requestURL = 'https://christyleann3.github.io/assignments/lesson-10/json/towns.json';
+var requestURL = 'https://christyleann3.github.io/assignments/lesson-11/json/towns.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
