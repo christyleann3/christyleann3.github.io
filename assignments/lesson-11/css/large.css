@@ -50,6 +50,6 @@
     .navigation, .container { flex-direction: row; }
 }
 
-.booked-wzs-day-d, .booked-wzs-day-n, .week-day-val {
+.booked-wzs-day-d, .booked-wzs-day-n, .week-day-val, .week-day {
     color: black;
 }
