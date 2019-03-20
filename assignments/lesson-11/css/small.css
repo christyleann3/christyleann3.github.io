@@ -175,7 +175,8 @@ main {max-width:820px; margin:0 auto;}
 	right: 50px;
 	border: 1px solid #000;
 	padding: .5rem;
-	box-shadow: 0 0 30px #fff;
+    box-shadow: 0 0 30px #fff;
+    align-content: center;
 }
 
 .booked-wzs-day-d, .booked-wzs-day-n, .week-day-val, .week-day {
