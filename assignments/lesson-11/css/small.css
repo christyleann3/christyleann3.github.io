@@ -182,8 +182,10 @@ main {max-width:820px; margin:0 auto;}
 .week-day, .week-day-ico, .week-day-val {
     text-align: center;
     align-content: center;
-    
+    margin: 0;
+    padding: 0;
 }
+
 .booked-wzs-day-d, .booked-wzs-day-n, .week-day-val, .week-day {
     color: black;
 }
