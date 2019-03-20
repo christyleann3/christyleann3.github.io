@@ -52,4 +52,5 @@
 
 .booked-wzs-day-d, .booked-wzs-day-n, .week-day-val, .week-day {
     color: black;
+    align-content: center;
 }
