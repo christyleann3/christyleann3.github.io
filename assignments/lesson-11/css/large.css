@@ -49,3 +49,7 @@
     .navigation li { display: block; flex: 1 1 auto; }
     .navigation, .container { flex-direction: row; }
 }
+
+.booked-wzs-day-d, booked-wzs-day-n, week-day-val {
+    color: black;
+}

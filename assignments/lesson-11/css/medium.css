@@ -11,3 +11,6 @@ figcaption {font-size: smaller;}
 .blur {filter: blur(1px) grayscale(75%);}
 .object {width: 100%; height: 100px ; object-fit: cover;}
 .shape-outside {border-radius: 100px; width:35%; margin: 0 3em .5em 0; float:left; shape-outside: circle();}
+.booked-wzs-day-d, booked-wzs-day-n, week-day-val {
+    color: black;
+}
