@@ -23,7 +23,7 @@ header img {
 }
 
 header h1, h2 {
-     display: block;
+     display: flex;
      background: #256d1b;
      text-align: center;
      color: #ffffff;
