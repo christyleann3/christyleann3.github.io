@@ -91,6 +91,8 @@ body style {
 }*/
 
 nav {
+    margin: 0 auto;
+    max-width: auto;
     height: 2.5rem;
     padding-top: .6rem;
     background-color: #709255;
@@ -106,32 +108,22 @@ a { text-decoration: none;}
 	flex-direction: column;
 }
 
-nav ul {
-    list-style-type: none;
-    padding-left: 1.75rem;
-}
-
 nav li {
     display: inline-block;
     padding-right: 1.75rem;
-    background-color: #000
+    background-color: #000;
+    float: center;
 }
 
-nav {
-    margin: 0 auto;
-    max-width: auto;
-    background-color: #000;
-    height: 60px;
-}
+
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 1.7rem;
     overflow: hidden;
+
 } 
-    nav li {
-        float: center;
-}
+    
     nav li a {
         display: block;
         padding: 8px;
