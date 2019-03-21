@@ -21,6 +21,7 @@ header img {
     background-color: #256d1b;
     margin: 1rem;
     padding: 1rem;
+    border: #fff;
 }
 
 header h1, h2 {
