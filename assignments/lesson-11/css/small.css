@@ -25,7 +25,7 @@ header img {
 
 header h1, h2 {
     display: flex;
-    background: #256d1b;
+    
     text-align: center;
     color: #ffffff;
     margin: 0px;
@@ -44,7 +44,7 @@ header h1 {
     background: #256d1b; 
  }
 
- header { background-color: #bbb; text-align: center; margin: 0 auto;}
+ header { background-color: #256d1b; text-align: center; margin: 0 auto;}
 
 /*end of header*/
 
