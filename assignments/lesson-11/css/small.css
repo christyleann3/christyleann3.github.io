@@ -33,7 +33,7 @@ header h1, h2 {
     max-width: auto;
  }
 
-header h1, .motto {
+header h1 {
     display: flex;
     font-size: 40px;
     background: #256d1b; 
@@ -43,6 +43,10 @@ header h1, .motto {
 header h2 {
     font-size: 60px;
     background: #256d1b; 
+}
+
+.motto {
+    color: #000;
 }
 
 header { 
