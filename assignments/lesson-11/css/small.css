@@ -35,9 +35,10 @@ header h1, h2 {
 header h1 {
     display: flex;
     font-size: 40px;
-    background: #256d1b;  
+    background: #256d1b; 
+    padding: .5rem; 
  } 
-
+ 
  header h2 {
     font-size: 30px;
     background: #256d1b; 
@@ -84,6 +85,9 @@ body style {
     margin: 0px; background: #ffffff;
 } 
 
+* { margin: 0; padding: 0; box-sizing: border-box;}
+body { background-color: #ddd; }
+
 /*body img {
     float: right;
     width: 12.5rem;
@@ -115,6 +119,18 @@ nav li {
     float: center;
 }
 
+nav li a {
+    display: block;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #172815;
+}
+
 
 nav ul {
     list-style-type: none;
@@ -123,17 +139,6 @@ nav ul {
     overflow: hidden;
 
 } 
-    
-    nav li a {
-        display: block;
-        padding: 8px;
-        color: #ffffff;
-        text-align: center;
-        text-decoration: none;
-}
-    nav li a:hover {
-        background-color: #172815;
-}
 
 .navigation { list-style: none; text-align: center;}
   .navigation li:first-child /*{ display: block;}*/
@@ -144,6 +149,7 @@ nav ul {
 main {
     margin-top: 1rem;
 }
+
 main {max-width:820px; margin:0 auto;}
 
 .herodiv {margin: 10px auto; position: relative;}
@@ -175,11 +181,6 @@ footer {
     background-color: #95B46A;
     text-align: center;
 }
-
-* { margin: 0; padding: 0; box-sizing: border-box;}
-body { background-color: #ddd; }
-
-h1 { padding: .5rem; }
 
 
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
