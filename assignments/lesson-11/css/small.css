@@ -30,7 +30,7 @@ header h1, h2 {
     color: #ffffff;
     margin: 0px;
     padding: 0px;
-    box-align: center;
+    max-width: auto;
  }
 
 header h1 {
