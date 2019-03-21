@@ -25,10 +25,9 @@ header img {
 
 header h1, h2 {
     display: flex;
-    
     text-align: center;
     color: #ffffff;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
     max-width: auto;
  }
