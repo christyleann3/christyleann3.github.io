@@ -23,22 +23,23 @@ header img {
 }
 
 header h1, h2 {
-     display: flex;
-     background: #256d1b;
-     text-align: center;
-     color: #ffffff;
-     margin: 0px;
-     padding: 0px;
+    display: flex;
+    background: #256d1b;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
  }
 
- header h1 {
-     font-size: 40px;
-     background: #256d1b;  
+header h1 {
+    display: flex;
+    font-size: 40px;
+    background: #256d1b;  
  } 
 
  header h2 {
-     font-size: 30px;
-     background: #256d1b; 
+    font-size: 30px;
+    background: #256d1b; 
  }
 
  header { background-color: #bbb; text-align: center; margin: 0 auto;}
