@@ -55,17 +55,18 @@ header h1 {
     flex-direction: column;
 } 
 
-.menu { max-width: 480px;}
+.menu { 
+    max-width: 480px;
+
+}
 
 .citybox1, .citybox2, .citybox3 {
     border: 1px solid #000;
     margin: 0 auto;
-    
     height: 160px;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 5px;
-    
 }
 
 hr {
