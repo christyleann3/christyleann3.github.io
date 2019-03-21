@@ -93,9 +93,9 @@ body style {
 nav {
     margin: 0 auto;
     max-width: auto;
-    height: 2.5rem;
+    height: 60px;
     padding-top: .6rem;
-    background-color: #709255;
+    background-color: #000;
 }
 
 a { text-decoration: none;}
