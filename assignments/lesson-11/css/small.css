@@ -55,12 +55,12 @@ header h1 {
 .citybox1, .citybox2, .citybox3 {
     border: 1px solid #000;
     margin: 0 auto;
-    width: auto;
+    
     height: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 5px;
-    box-align: vertical;
+    
 }
 
 hr {
