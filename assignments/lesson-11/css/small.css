@@ -33,19 +33,19 @@ header h1, h2 {
     max-width: auto;
  }
 
-header h1 {
+header h1, .motto {
     display: flex;
     font-size: 40px;
     background: #256d1b; 
     padding: .5rem; 
  } 
  
- header h2 {
+header h2 {
     font-size: 60px;
     background: #256d1b; 
 }
 
- header { 
+header { 
     background-color: #256d1b; 
     text-align: center; 
     margin: 0 auto;
