@@ -55,7 +55,7 @@ header h1 {
 .citybox1, .citybox2, .citybox3 {
     border: 1px solid #000;
     margin: 0 auto;
-    
+    -ms-grid-column-align: center;
     height: 160px;
     margin-top: 15px;
     margin-bottom: 15px;
