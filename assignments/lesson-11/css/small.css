@@ -51,7 +51,9 @@ header h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}    
+} 
+
+.menu { max-width: 480px;}
 
 .citybox1, .citybox2, .citybox3 {
     border: 1px solid #000;
