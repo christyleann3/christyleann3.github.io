@@ -46,7 +46,12 @@ header h1 {
     color: #ffffff;
  }
 
- header { background-color: #256d1b; text-align: center; margin: 0 auto;}
+ header { 
+    background-color: #256d1b; 
+    text-align: center; 
+    margin: 0 auto;
+    color: #ffffff;
+}
 
 /*end of header*/
 
