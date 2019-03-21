@@ -114,23 +114,18 @@ a { text-decoration: none;}
 .navigation {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
+	padding: 8px;
+	display: inline-block;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+
 }
 
 nav li {
     display: inline-block;
     padding-right: 1.75rem;
     float: center;
-}
-
-nav li a {
-    display: block;
-    padding: 8px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
 }
 
 nav li a:hover {
