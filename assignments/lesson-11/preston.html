@@ -7,24 +7,25 @@
     <meta name="description" content="Idaho's best southeastern weather information source.">
     <link rel="stylesheet" href="css/normalized.css">
     <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
  </head>
  <body>
-  <header> 
-    <section class="headings">
-  <div class="insidebox">
-    <img src="images/logo.jpg" alt="logo.jpg">
-  <h1>Southeast Idaho Weather</h1>
-  </div> 
-  <div class="motto">Southeast Idaho's #1 Weather Site.</div>
-    </section>
-    <script src="javascript/currentdate.js"></script>
-</header>
+   <header> 
+      <section class="headings">
+      <div class="insidebox">
+         <img src="images/logo.jpg" alt="logo.jpg">
+         <h1>Southeast Idaho Weather</h1>
+      </div> 
+      <div class="motto">Southeast Idaho's #1 Weather Site.</div>
+      </section>
+   <script src="script/currentdate.js"></script>
+   </header>
       <nav>
          <ul class="navigation">
-            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
             <li><a href="weathersiteindex.html" title="Home">Home</a></li>
             <li id="current-page"><a href="preston.html" title="preston">Preston</a></li>  
             <li><a href="sodasprings.html" title="sodasprings">Soda Springs</a></li>   
