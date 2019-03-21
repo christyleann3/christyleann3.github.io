@@ -1,6 +1,6 @@
 function toggleMenu() {
     var x =
-document.getElementById("menu");
+document.getElementById("button");
 if (x.style.display === "none") {
     x.style.display = "block";
 } else {
