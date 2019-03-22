@@ -29,6 +29,9 @@ figcaption {font-size: smaller;}
     color: #ffffff;
     text-align: center;
 }
+.button {
+    display: none;
+}
 nav {
     margin: 0;
     max-width: auto;
