@@ -70,6 +70,13 @@
         float: right;
     }
 
+    .article {
+        border: 1px solid #000;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
     .flexbox { flex-direction: row;}
 
     .button { display: none;}
