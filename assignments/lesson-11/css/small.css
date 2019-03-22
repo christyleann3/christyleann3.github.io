@@ -64,6 +64,7 @@ header {
     background-color: #256d1b;
     margin: 0px;
     padding: 0px;
+    border: 1px solid #ffffff;
 }
 
 .flexbox {
