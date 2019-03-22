@@ -60,6 +60,10 @@ header {
 
 /*end of header*/
 
+.page {
+    background-color: aqua;
+}
+
 .flexbox {
     display: flex;
     justify-content: space-between;
