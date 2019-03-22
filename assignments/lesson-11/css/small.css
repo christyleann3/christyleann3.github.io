@@ -112,8 +112,8 @@ body { background-color: #ddd; }
 nav {
     margin: 0;
     max-width: auto;
-    height: 40px;
-    padding: .5rem;
+    height: 50px;
+    padding: 0px;
     background-color: #000;
     text-align: center;
 }
