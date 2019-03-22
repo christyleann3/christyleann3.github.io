@@ -103,12 +103,6 @@ body style {
 * { margin: 0; padding: 0; box-sizing: border-box;}
 body { background-color: #ddd; }
 
-body img {
-    float: right;
-    width: 12.5rem;
-    height: 3.5rem;
-}
-
 nav {
     margin: 0;
     max-width: auto;

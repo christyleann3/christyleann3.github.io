@@ -63,12 +63,7 @@
         background-color: #000;
         text-align: center;
     }
-    body img {
-        float: right;
-        width: auto;
-        height: 75px;
-    }
-
+    
     .flexbox { flex-direction: row;}
 
     .button { display: none;}
