@@ -61,7 +61,9 @@ header {
 /*end of header*/
 
 .page {
-    background-color: aqua;
+    background-color: #256d1b;
+    margin: 0px;
+    padding: 0px;
 }
 
 .flexbox {
