@@ -52,6 +52,14 @@
         color: #ffffff;
         text-align: center;
     }
+    nav {
+        margin: 0;
+        max-width: auto;
+        height: 60px;
+        padding: 0px;
+        background-color: #000;
+        text-align: center;
+    }
     .flexbox { flex-direction: row;}
 
     .button { display: none;}
