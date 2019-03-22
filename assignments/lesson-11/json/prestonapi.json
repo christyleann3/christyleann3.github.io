@@ -1,14 +1,13 @@
 {"coord":
-    {"lon":42.1,"lat":-111.88},
-    "weather":[{"id":803,"main":"Clouds","description":"sky is clear","icon":"04n"}],
-    "base":"cmc stations",
-    "main":{"temp":293.25,"pressure":1019,"humidity":20,"temp_min":289.82,"temp_max":295.37},
-    "wind":{"speed":5.1,"deg":150},
-    "clouds":{"all":75},
-    "rain":{"3h":3},
-    "dt":1435658272,
-    "sys":{"type":1,"id":8166,"message":0.0166,"country":"USA","sunrise":0931,"sunset":1435650870},
+    {"lon":-111.88,"lat":42.1},
+    "weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],
+    "base":"stations",
+    "main":{"temp":278.75,"pressure":1016,"humidity":100,"temp_min":275.37,"temp_max":280.37},
+    "visibility":14484,
+    "wind":{"speed":2.1,"deg":200},
+    "clouds":{"all":90},
+    "dt":1553295044,
+    "sys":{"type":1,"id":4701,"message":0.0497,"country":"US","sunrise":1553261255,"sunset":1553305271},
     "id":5604473,
     "name":"Preston",
     "cod":200}
-    
