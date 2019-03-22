@@ -113,8 +113,9 @@ nav {
     margin: 0 auto;
     max-width: auto;
     height: 50px;
-    padding-top: .5rem;
+    padding-top: 0px;
     background-color: #000;
+    text-align: center;
 }
 
 a { text-decoration: none;}
