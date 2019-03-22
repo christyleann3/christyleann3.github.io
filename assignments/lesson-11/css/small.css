@@ -128,6 +128,7 @@ a { text-decoration: none;}
     flex-direction: column;
     color: #ffffff;
     text-align: center;
+    display: none;
 }
 
 nav li {

@@ -51,6 +51,7 @@
         flex-direction: column;
         color: #ffffff;
         text-align: center;
+        display: none;
     }
     nav {
         margin: 0;
