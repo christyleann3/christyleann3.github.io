@@ -20,6 +20,12 @@ figcaption {font-size: smaller;}
     padding: 0px;
     border: 1px solid #ffffff;
 }
+.article {
+    border: 1px solid #000;
+    margin: 1px;
+    padding: 1px;
+    text-align: left;
+}
 .navigation {
     list-style-type: none;
     margin: 0;

@@ -96,6 +96,13 @@ strong {
     height: 9.5rem;
 }
 
+.article {
+    border: 1px solid #000;
+    margin: 1px;
+    padding: 1px;
+    text-align: left;
+}
+
 body style {
     margin: 0px; background: #ffffff;
 } 
