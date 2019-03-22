@@ -97,3 +97,10 @@
 .booked-wzs-day-d, .booked-wzs-day-n, .week-day-val, .week-day {
     color: black;
 }
+footer {
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #95B46A;
+    text-align: center;
+    border: 1px solid #444;
+}

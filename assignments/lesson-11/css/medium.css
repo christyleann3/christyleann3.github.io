@@ -40,3 +40,10 @@ nav {
     background-color: #000;
     text-align: center;
 }
+footer {
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #95B46A;
+    text-align: center;
+    border: 1px solid #444;
+}
