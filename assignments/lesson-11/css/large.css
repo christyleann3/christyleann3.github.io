@@ -19,74 +19,74 @@
     .navigation li { display: inline-block; margin-right: 1rem;}	
     .navigation li a { color: #ffffff;}
 
-    nav li { background-color: none;}
+nav li { background-color: none;}
     
-    .insidebox { 
-        height: 160px; 
-        flex-direction: row;
-    }
-    header img { 
-        align-self: left; 
-        max-height: 140px;
-        width: auto;
-        padding-left: 3.0rem;
-    }
-    header h1 { 
-        font-size: 65px; 
-        padding: 15px; 
-        display: flex;
-        align-items: center;
-    } 
-    .page {
-        background-color: #256d1b;
-        margin: 0px;
-        padding: 0px;
-        border: 1px solid #ffffff;
-    }
-    .navigation {
-        list-style-type: none;
-        margin: 0px;
-        padding: 8px;
-        display: inline-block;
-        flex-direction: column;
-        color: #ffffff;
-        text-align: center;
-    }
-    .topnav {
-        display: none;
-    }
-    nav {
-        margin: 0;
-        max-width: auto;
-        height: 60px;
-        padding: 0px;
-        background-color: #000;
-        text-align: center;
-    }
-    
-    .bodyimg { 
-        width: auto;
-        max-height: 300px;
-        float: right;
-        margin: 1px;
-        padding: 1px;
-    }
-
-    .article {
-        border: 1px solid #000;
-        margin: 1px;
-        padding: 1px;
-        text-align: left;
-    }
-
-    .flexbox { flex-direction: row;}
-
-    .button { display: none;}
-
-    .citybox1, .citybox2, .citybox 3 {
-        width: 32%;
-    }
+.insidebox { 
+    height: 160px; 
+    flex-direction: row;
 }
+header img { 
+    align-self: left; 
+    max-height: 140px;
+    width: auto;
+    padding-left: 3.0rem;
+}
+header h1 { 
+    font-size: 65px; 
+    padding: 15px; 
+    display: flex;
+    align-items: center;
+} 
+.page {
+    background-color: #256d1b;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #ffffff;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0px;
+    padding: 8px;
+    display: inline-block;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+}
+.topnav {
+    display: none;
+}
+nav {
+    margin: 0;
+    max-width: auto;
+    height: 60px;
+    padding: 0px;
+    background-color: #000;
+    text-align: center;
+}
+    
+.bodyimg { 
+    width: auto;
+    max-height: 300px;
+    float: right;
+    margin: 1px;
+    padding: 1px;
+}
+
+.article {
+    border: 1px solid #000;
+    margin: 1px;
+    padding: 1px;
+    text-align: left;
+}
+
+.flexbox { flex-direction: row;}
+
+.button { display: none;}
+
+.citybox1, .citybox2, .citybox 3 {
+    width: 32%;
+ }
+
  
 @media (min-width: 45em) {
     .navigation li:first-child /*{ display: none;}*/
