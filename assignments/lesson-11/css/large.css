@@ -74,6 +74,7 @@
         border: 1px solid #000;
         margin: 0;
         padding: 0;
+        text-align: left;
     }
 
     .flexbox { flex-direction: row;}
