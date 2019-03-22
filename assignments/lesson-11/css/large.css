@@ -37,6 +37,21 @@
         display: flex;
         align-items: center;
     } 
+    .page {
+        background-color: #256d1b;
+        margin: 0px;
+        padding: 0px;
+        border: 1px solid #ffffff;
+    }
+    .navigation {
+        list-style-type: none;
+        margin: 0;
+        padding: 8px;
+        display: inline-block;
+        flex-direction: column;
+        color: #ffffff;
+        text-align: center;
+    }
     .flexbox { flex-direction: row;}
 
     .button { display: none;}
