@@ -40,3 +40,8 @@ nav {
     background-color: #000;
     text-align: center;
 }
+body img {
+    float: right;
+    width: 16px;
+    height: 16px;
+}
