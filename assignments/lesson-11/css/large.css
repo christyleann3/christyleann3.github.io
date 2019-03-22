@@ -45,12 +45,13 @@
     }
     .navigation {
         list-style-type: none;
-        margin: 0;
-        padding: 8px;
+        margin: 10px;
+        padding: 10px;
         display: inline-block;
         flex-direction: column;
         color: #ffffff;
         text-align: center;
+        
     }
     .flexbox { flex-direction: row;}
 
