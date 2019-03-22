@@ -64,7 +64,10 @@
         text-align: center;
     }
     
-    .bodyimg { max-height: 200px;}
+    .bodyimg { 
+        width: auto;
+        max-height: 200px;
+    }
 
     .flexbox { flex-direction: row;}
 
