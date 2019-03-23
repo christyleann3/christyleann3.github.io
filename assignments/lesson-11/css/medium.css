@@ -55,7 +55,7 @@ figcaption {font-size: smaller;}
     display: none;
 }
 .gallery {
-    float: right;
+    box-align: column;
     width: 30%;
     text-align: center;
     font-style: italic;
