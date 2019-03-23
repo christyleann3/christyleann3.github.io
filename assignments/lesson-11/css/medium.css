@@ -21,23 +21,21 @@ figcaption {font-size: smaller;}
     border: 1px solid #ffffff;
 }
 .row {
-    width: auto;
-}
-.column1, .column2, .column3 {
-    float: left;
-    width:33.33%;
-    border: 1px solid #000;
-    padding: 0px;
-    margin: 1px;
-}
-.column1 {float: left;}
-.column2 {float: center;}
-.column3 {float: right;}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+    max-width: auto;
+ }
+ .column1, .column2, .column3 {
+     width:33.33%;
+     height: 25rem;
+     border: 1px solid #000;
+     padding: 0px;
+     margin: 1px;
+ }
+ .column1 {float: left;}
+ .column2 {float: center;}
+ .column3 {float: right;}
+ .row:after {
+     display: table;
+ }    
 .article {
     border: 1px solid #000;
     margin: 1px;
