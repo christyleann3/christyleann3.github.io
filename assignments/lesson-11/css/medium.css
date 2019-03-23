@@ -39,6 +39,7 @@ figcaption {font-size: smaller;}
     display: none;
 }
 .gallery {
+    columns: 3;
     float: right;
     width: 30%;
     text-align: center;
