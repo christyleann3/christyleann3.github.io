@@ -4,7 +4,7 @@ function myFunction(arr) {
   var out = "towns.json";
   var i;
   for(i = 0; i <arr.length; i++) {
-    out += '<a href="towns.json"' + arr[i].url + '">' + arr[i].display + '</a><br>';
+    out += '<a href="towns.json"' + arr[i].url + 'https://christyleann3.github.io/assignments/lesson-11/json/towns.json' + arr[i].display + 'towns.json</a><br>';
     document.getElementById("https://christyleann3.github.io/assignments/lesson-11/json/towns.json").innerHTML = out;
   }
 };
