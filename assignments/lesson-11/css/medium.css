@@ -20,7 +20,17 @@ figcaption {font-size: smaller;}
     padding: 0px;
     border: 1px solid #ffffff;
 }
+.column {
+    float: left;
+    width:33.33%;
+}
 
+/*Clear floats after the columns*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .article {
     border: 1px solid #000;
     margin: 1px;
