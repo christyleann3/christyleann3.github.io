@@ -61,7 +61,7 @@ figcaption {font-size: smaller;}
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
-    image-resolution: 300dpi;
+    image-resolution: 100dpi;
     margin: .5em;
     padding: .5em;
 }
