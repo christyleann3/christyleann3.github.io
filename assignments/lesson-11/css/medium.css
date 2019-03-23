@@ -29,6 +29,10 @@ figcaption {font-size: smaller;}
     margin: 1px;
 }
 
+.column1 { float: left;}
+.column2 { float: center;}
+.column3 { float: right;}
+
 .article {
     border: 1px solid #000;
     margin: 1px;
