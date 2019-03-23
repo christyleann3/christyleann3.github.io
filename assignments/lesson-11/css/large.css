@@ -97,8 +97,8 @@ nav {
 
 .citybox1, .citybox2, .citybox 3 {
     width: 32%;
-    box-align: vertical;
- }
+    height: 32%;
+}
 
  
 @media (min-width: 45em) {
