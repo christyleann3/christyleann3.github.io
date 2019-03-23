@@ -10,7 +10,23 @@
 	<link rel="stylesheet" href="css/medium.css">
 	<link rel="stylesheet" href="css/large.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<style>
+	* {
+		box-sizing: border-box;
+	}
+	.column {
+		float: left;
+		width: 33.33%;
+		padding: 10px;
+		height: 300px;
+	}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	</style>
 </head>
 <body>
 	<header> 
@@ -36,13 +52,20 @@
 		</ul>
 	</nav>
     <main>
-	<section class="towns">
 		<div class="row">
-			<div class="column"></div>
-			<div class="column"></div>
-			<div class="column"></div>
+			<div class="column" style="background-color: #95B46A;">
+				<h3>Preston</h3>
+				<p><a href="towns.json"></a></p>
+			</div>
+			<div class="column" style="background-color: #95B46A;">
+				<h3>Soda Springs</h3>
+				<p><a href="towns.json"></a></p>
+			</div>
+			<div class="column" style="background-color: #95B46A;">
+				<h3>Fish Haven</h3>
+				<p><a href="towns.json"></a></p>
+			</div>
 		</div>
-	</section>     
 	</main>
     <footer>
 		<div>&copy; 2019 | Southeast Idaho Weather<br>1234 Hunter Rd., Preston, Idaho, 83263></div>
