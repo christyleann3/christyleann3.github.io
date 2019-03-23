@@ -48,7 +48,7 @@ header h1 {
    display: table;
 }
 .column1, .column2, .column3 {
-    width:30%;
+    width: 30%;
     height: 25rem;
     border: 1px solid #000;
     padding: 0px;
