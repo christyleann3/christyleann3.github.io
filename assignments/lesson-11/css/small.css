@@ -67,6 +67,10 @@ header {
     border: 1px solid #ffffff;
 }
 
+.row {
+    width: auto;
+    height: 300px;
+}
 .column {
     float: left;
     width:33.33%;
