@@ -45,6 +45,7 @@ header h1 {
 }
 
 .column1, .column2, .column3 {
+    flex-direction: row;
     width: 30%;
     height: 25rem;
     border: 1px solid #000;
