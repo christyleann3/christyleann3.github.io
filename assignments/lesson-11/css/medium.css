@@ -38,6 +38,11 @@ figcaption {font-size: smaller;}
 .middle {
     width: 50%;
 }
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%
+    }
+}
 .article {
     border: 1px solid #000;
     margin: 1px;
