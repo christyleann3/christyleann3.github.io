@@ -22,7 +22,7 @@ figcaption {font-size: smaller;}
 }
 
 .column1, .column2, .column3 {
-    flex-direction: row;
+    display: flex;
     width: 30%;
     height: 25rem;
     border: 1px solid #000;
