@@ -24,8 +24,8 @@
    <script src="script/currentdate.js"></script>
    </header>
       <nav>
+         <button class="topnav" onclick="toggleMenu()">&#9776; Menu</button>
          <ul class="navigation">
-            <button class="topnav" onclick="toggleMenu()">&#9776; Menu</button>
             <li><a href="weathersiteindex.html" title="Home">Home</a></li>
             <li id="current-page" class="page"><a href="preston.html" title="preston">Preston</a></li>  
             <li><a href="sodasprings.html" title="sodasprings">Soda Springs</a></li>   
@@ -36,7 +36,7 @@
       </nav>
    <main>
       <h1>Preston, Idaho</h1>
-      <div class="herodiv">
+      <div class="herodiv"></div>
       <script src="script/weatherapipreston.js"></script>
       <picture>
          <source srcset="images/aerial-view.jpg" media="(max-width: 655px)">
@@ -58,6 +58,7 @@
             <p>Winter temperatures and precipitation will be above normal, on average, with the coldest periods in late December, early January, and early February. Snowfall will be above normal in the north and below normal in the south, with the snowiest periods in late November, late December, early and late January, mid- to late February, and early March. April and May will have temperatures below normal in the north and above normal in the south and will be slightly drier than normal. Summer will be hotter and slightly drier than normal, with the hottest periods in mid- and late June and mid- to late July. September and October will be warmer than normal, with near-normal precipitation.</p>>
       </section>
       <section>
+         <h2>Map of Preston</h2>
             <img src="images/map_of_preston.png" alt="map_of_preston.png">
           <nav>
              <ul class="navigation">
