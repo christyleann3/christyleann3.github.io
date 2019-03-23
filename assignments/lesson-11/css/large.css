@@ -95,15 +95,14 @@ nav {
 
 .button { display: none;}
 
-.row, .column {
+/*.row, .column {
     border: 1px solid #000;
     margin: 0 auto;
     height: 160px;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 5px;
-}
-
+}*/
  
 @media (min-width: 45em) {
     .navigation li:first-child /*{ display: none;}*/
