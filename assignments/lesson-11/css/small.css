@@ -70,6 +70,7 @@ header {
 .column {
     float: left;
     width:33.33%;
+    border: 1px solid #000;
 }
 
 /*Clear floats after the columns*/
