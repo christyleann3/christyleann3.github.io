@@ -95,31 +95,6 @@ nav {
 
 .button { display: none;}
 
-.column {
-    float: left;
-    width: 33.33%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/*.left, .right {
-    width: 25%;
-}
-
-.middle {
-    width: 50%;
-}
-
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%
-    }
-}*/
- 
 @media (min-width: 45em) {
     .navigation li:first-child /*{ display: none;}*/
     .navigation li { display: block; flex: 1 1 auto; }
