@@ -30,7 +30,7 @@ figcaption {font-size: smaller;}
 }
 
 .column1 { float: left;}
-
+.column2 { display: inline-block;}
 .column3 { float: right;}
 
 .article {
