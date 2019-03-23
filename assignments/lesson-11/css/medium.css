@@ -20,6 +20,18 @@ figcaption {font-size: smaller;}
     padding: 0px;
     border: 1px solid #ffffff;
 }
+.column-left {
+    float: left;
+    width: 33.333%;
+}
+.column-right {
+    float: right;
+    width: 33.333%;
+}
+.column-center {
+    display: inline-block;
+    width: 33.333%;
+}
 .article {
     border: 1px solid #000;
     margin: 1px;

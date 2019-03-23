@@ -43,6 +43,18 @@ header h1 {
     padding: 0px;
     border: 1px solid #ffffff;
 }
+.column-left {
+    float: left;
+    width: 33.333%;
+}
+.column-right {
+    float: right;
+    width: 33.333%;
+}
+.column-center {
+    display: inline-block;
+    width: 33.333%;
+}
 .navigation {
     list-style-type: none;
     margin: 0px;
