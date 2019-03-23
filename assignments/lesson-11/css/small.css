@@ -77,8 +77,9 @@ header {
     padding: 0px;
     margin: 1px;
 }
-
-/*Clear floats after the columns*/
+.column1 {float: left;}
+.column2 {float: center;}
+.column3 {float: right;}
 .row:after {
     content: "";
     display: table;
