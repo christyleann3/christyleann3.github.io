@@ -20,6 +20,14 @@ figcaption {font-size: smaller;}
     padding: 0px;
     border: 1px solid #ffffff;
 }
+.row, .column {
+    border: 1px solid #000;
+    margin: 0 auto;
+    height: 160px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
 .article {
     border: 1px solid #000;
     margin: 1px;
