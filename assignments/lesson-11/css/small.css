@@ -71,7 +71,7 @@ header {
     float: left;
     width:33.33%;
     border: 1px solid #000;
-    justify-content: space-between;
+    padding: 1px;
 }
 
 /*Clear floats after the columns*/
