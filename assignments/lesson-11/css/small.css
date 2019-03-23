@@ -120,7 +120,7 @@ body { background-color: #ddd; }
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
-    border: thin silver solid;
+    image-resolution: 300dpi;
     margin: .5em;
     padding: .5em;
 }
