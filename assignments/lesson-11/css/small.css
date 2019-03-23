@@ -71,6 +71,7 @@ header {
     width: auto;
 }
 .column {
+    display: flex;
     float: left;
     width:33.33%;
     border: 1px solid #000;
