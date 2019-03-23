@@ -1,6 +1,6 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
-.getJSON("towns.json", function(data) {
+$.getJSON("towns.json", function(data) {
   console.log(data);
 });
 var requestURL = 'https://christyleann3.github.io/assignments/lesson-11/json/towns.json';
