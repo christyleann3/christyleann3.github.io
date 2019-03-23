@@ -19,7 +19,7 @@ request.onload = function() {
     header.appendChild(myH1);
   
     var myPara = document.createElement('p');
-    myPara.textContent = 'Towns:' + jsonObj['Towns'];
+    myPara.textContent = 'towns:' + jsonObj['towns'];
     header.appendChild(myPara);
   }
   function showTowns(jsonObj) {
