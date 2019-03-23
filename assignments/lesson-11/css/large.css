@@ -19,14 +19,12 @@
     .navigation li { display: inline-block; margin-right: 1rem;}	
     .navigation li a { color: #ffffff;}
 
-nav li { background-color: none;}
-    
 .insidebox { 
     height: 160px; 
     flex-direction: row;
 }
 header img { 
-    align-self: left; 
+    float: left; 
     max-height: 140px;
     width: auto;
     padding-left: 3.0rem;

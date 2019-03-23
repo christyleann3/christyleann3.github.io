@@ -149,7 +149,6 @@ a { text-decoration: none;}
 nav li {
     display: inline-block;
     padding-right: 1.75rem;
-    float: center;
 }
 
 nav li a:hover {
