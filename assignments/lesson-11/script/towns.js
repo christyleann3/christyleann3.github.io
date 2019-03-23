@@ -6,5 +6,5 @@ function() {
     document.getElementById("https://christyleann3.github.io/assignments/lesson-11/json/towns.json").innerHTML = myObj.towns;
   }
 };
-xmlhttp.open("GET", "json_towns.txt", true);
+xmlhttp.open("GET", "towns.json", true);
 xmlhttp.send();
