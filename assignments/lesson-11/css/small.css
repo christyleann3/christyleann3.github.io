@@ -69,7 +69,6 @@ header {
 
 .row {
     width: auto;
-    max-height: 200px;
 }
 .column1, .column2, .column3 {
     float: left;
