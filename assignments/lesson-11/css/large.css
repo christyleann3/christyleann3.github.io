@@ -106,7 +106,7 @@ nav {
     clear: both;
 }
 
-.left, .right {
+/*.left, .right {
     width: 25%;
 }
 
@@ -118,7 +118,7 @@ nav {
     .column {
         width: 100%
     }
-}
+}*/
  
 @media (min-width: 45em) {
     .navigation li:first-child /*{ display: none;}*/

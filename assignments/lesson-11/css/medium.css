@@ -31,7 +31,7 @@ figcaption {font-size: smaller;}
     clear: both;
 }
 
-.left, .right {
+/*.left, .right {
     width: 25%;
 }
 
@@ -42,7 +42,7 @@ figcaption {font-size: smaller;}
     .column {
         width: 100%
     }
-}
+}*/
 .article {
     border: 1px solid #000;
     margin: 1px;

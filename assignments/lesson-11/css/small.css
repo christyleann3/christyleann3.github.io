@@ -84,7 +84,7 @@ header {
     clear: both;
 }
 
-.left, .right {
+/*.left, .right {
     width: 25%;
 }
 
@@ -96,7 +96,7 @@ header {
     .column {
         width: 100%
     }
-}
+}*/
 
 hr {
     border: 0.5px solid #444;
