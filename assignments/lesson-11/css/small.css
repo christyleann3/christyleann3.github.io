@@ -74,9 +74,6 @@ header {
     padding: 0px;
     margin: 1px;
 }
-.column1 {float: left;}
-.column2 {float: center;}
-.column3 {float: right;}
 
 .flexbox {
     display: flex;

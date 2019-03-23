@@ -51,9 +51,6 @@ header h1 {
     padding: 0px;
     margin: 1px;
 }
-.column1 {float: left;}
-.column2 {float: center;}
-.column3 {float: right;}
 
 .navigation {
     list-style-type: none;
