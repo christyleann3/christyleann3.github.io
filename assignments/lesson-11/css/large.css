@@ -45,6 +45,7 @@ header h1 {
 }
 .row {
    max-width: auto;
+   display: table;
 }
 .column1, .column2, .column3 {
     width:33.33%;
@@ -56,9 +57,7 @@ header h1 {
 .column1 {float: left;}
 .column2 {float: center;}
 .column3 {float: right;}
-.row:after {
-    display: table;
-}    
+
 .navigation {
     list-style-type: none;
     margin: 0px;

@@ -69,6 +69,7 @@ header {
 
 .row {
     max-width: auto;
+    display: table;
  }
  .column1, .column2, .column3 {
      width:33.33%;
@@ -80,9 +81,7 @@ header {
  .column1 {float: left;}
  .column2 {float: center;}
  .column3 {float: right;}
- .row:after {
-     display: table;
- }    
+ 
 
 .flexbox {
     display: flex;
