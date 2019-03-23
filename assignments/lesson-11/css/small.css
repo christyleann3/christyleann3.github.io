@@ -177,6 +177,10 @@ main {max-width:820px; margin:0 auto;}
 
 .herodiv {margin: 10px auto; position: relative;}
 
+.bodyimg {
+    float: right;
+}
+
 .stats {
 	position: absolute;
 	top: 25px;

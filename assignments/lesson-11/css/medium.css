@@ -48,6 +48,9 @@ figcaption {font-size: smaller;}
     color: #ffffff;
     text-align: center;
 }
+.bodyimg {
+    float: right;
+}
 .topnav {
     display: none;
 }

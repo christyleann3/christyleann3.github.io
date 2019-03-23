@@ -104,6 +104,10 @@ nav {
 
 .flexbox { flex-direction: row;}
 
+.bodyimg {
+    float: right;
+}
+
 .button { display: none;}
 
 @media (min-width: 45em) {
