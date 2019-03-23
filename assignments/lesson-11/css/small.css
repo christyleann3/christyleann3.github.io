@@ -111,6 +111,7 @@ body style {
 body { background-color: #ddd; }
 
 .gallery {
+    columns: 3;
     float: right;
     width: 30%;
     text-align: center;
