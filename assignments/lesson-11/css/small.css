@@ -67,21 +67,16 @@ header {
     border: 1px solid #ffffff;
 }
 
-.row {
-    max-width: auto;
-    display: table;
- }
- .column1, .column2, .column3 {
-     width: 30%;
-     height: 25rem;
-     border: 1px solid #000;
-     padding: 0px;
-     margin: 1px;
- }
- .column1 {float: left;}
- .column2 {float: center;}
- .column3 {float: right;}
- 
+.column1, .column2, .column3 {
+    width: 30%;
+    height: 25rem;
+    border: 1px solid #000;
+    padding: 0px;
+    margin: 1px;
+}
+.column1 {float: left;}
+.column2 {float: center;}
+.column3 {float: right;}
 
 .flexbox {
     display: flex;

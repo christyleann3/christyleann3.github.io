@@ -43,10 +43,7 @@ header h1 {
     padding: 0px;
     border: 1px solid #ffffff;
 }
-.row {
-   max-width: auto;
-   display: table;
-}
+
 .column1, .column2, .column3 {
     width: 30%;
     height: 25rem;
