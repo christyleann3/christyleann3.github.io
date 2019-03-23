@@ -110,6 +110,18 @@ body style {
 * { margin: 0; padding: 0; box-sizing: border-box;}
 body { background-color: #ddd; }
 
+.gallery {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: .5em;
+    padding: .5em;
+}
+
 nav {
     margin: 0;
     max-width: auto;

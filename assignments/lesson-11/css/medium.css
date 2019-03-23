@@ -38,6 +38,17 @@ figcaption {font-size: smaller;}
 .topnav {
     display: none;
 }
+.gallery {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: .5em;
+    padding: .5em;
+}
 nav {
     margin: 0;
     max-width: auto;
