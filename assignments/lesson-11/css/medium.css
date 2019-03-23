@@ -20,13 +20,23 @@ figcaption {font-size: smaller;}
     padding: 0px;
     border: 1px solid #ffffff;
 }
-.row, .column {
-    border: 1px solid #000;
-    margin: 0 auto;
-    height: 160px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 5px;
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.middle {
+    width: 50%;
 }
 .article {
     border: 1px solid #000;
