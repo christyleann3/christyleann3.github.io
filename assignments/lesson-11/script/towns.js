@@ -1,29 +1,29 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
-$.getJSON("towns.json", function(data) {
+$.getJSON("towns", function(data) {
   console.log(data);
 });
 var requestURL = 'https://christyleann3.github.io/assignments/lesson-11/json/towns.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
-request.responseType = 'towns.json';
+request.responseType = 'towns';
 request.send();
 request.onload = function() {
     var towns = request.response;
-    populateHeader(towns.json);
-    showTowns(towns.json);
+    populateHeader(towns);
+    showTowns(towns);
   }
   function populateHeader(jsonObj) {
     var towns = document.createElement('h1');
-    towns.textContent = jsonObj['towns.json'];
+    towns.textContent = jsonObj['towns'];
     header.appendChild(myH1);
   
     var myPara = document.createElement('p');
-    myPara.textContent = 'towns.json:' + jsonObj['towns.json'];
+    myPara.textContent = 'towns:' + jsonObj['towns'];
     header.appendChild(myPara);
   }
   function showTowns(jsonObj) {
-    var towns = jsonObj['towns.json'];
+    var towns = jsonObj['towns'];
         
     for (var i = 0; i < towns.length; i++) {
       var myArticle = document.createElement('article');
