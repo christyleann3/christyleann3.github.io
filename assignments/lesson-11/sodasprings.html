@@ -1,85 +1,80 @@
 <!DOCTYPE html>
 <html lang="en-us">
- <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Southeast Idaho Weather</title>
-    <meta name="description" content="Idaho's best southeastern weather information source.">
-    <link rel="stylesheet" href="css/normalized.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
- </head>
- <body>
-  <header> 
-    <section class="headings">
-  <div class="insidebox">
-    <img src="images/logo.jpg" alt="logo.jpg">
-  <h1>Southeast Idaho Weather</h1>
-  </div> 
-  <div class="motto">Southeast Idaho's #1 Weather Site.</div>
-    </section>
-    <script src="javascript/currentdate.js"></script>
-</header>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <title>Southeast Idaho Weather</title>
+   <meta name="description" content="Idaho's best southeastern weather information source.">
+   <link rel="stylesheet" href="css/normalized.css">
+   <link rel="stylesheet" href="css/small.css">
+   <link rel="stylesheet" href="css/medium.css">
+   <link rel="stylesheet" href="css/large.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+   <header> 
+      <section class="headings">
+      <div class="insidebox">
+         <img src="images/logo.jpg" alt="logo.jpg">
+         <h1>Southeast Idaho Weather</h1>
+      </div> 
+      <div class="motto">Southeast Idaho's #1 Weather Site.</div>
+      </section>
+   <script src="script/currentdate.js"></script>
+   </header>
       <nav>
-         <ul>
+         <ul class="navigation">
+            <button class="topnav" onclick="toggleMenu()">&#9776; Menu</button>
             <li><a href="weathersiteindex.html" title="Home">Home</a></li>
             <li><a href="preston.html" title="preston">Preston</a></li>  
-            <li id="current-page"><a href="sodasprings.html" title="sodasprings">Soda Springs</a></li>   
+            <li id="current-page" class="page"><a href="sodasprings.html" title="sodasprings">Soda Springs</a></li>   
             <li><a href="fishhaven.html" title="fishhaven">Fish Haven</a></li>   
             <li><a href="stormcenter.html" title="storm center">Storm Center</a></li> 
             <li><a href="gallery.html" title="gallery">Gallery</a></li>  
          </ul>
       </nav>
-      <main>
-            <h1>Soda Springs, Idaho</h1>
-            <div class="herodiv">
-            <script src="script/currentdate.js"></script>    
-            <script src="script/weatherapisodasprings.js"></script>
-            <picture>
-               <source srcset="images/aerial-view.jpg" media="(max-width: 655px)">
-               <img src="images/aerial-view.jpg" alt="aerial-view.jpg">
-            </picture>      
-          <section class="stats">
-            <h3>Statistics</h3>
-            <p>Windchill</p>
-            <hr>
-            <p><em>Label</em>: <span id="somevalue">59</span> units.</p>
-            <hr>
-            <div id="output"></div>
-            <div id="datestuff"></div>
-          </section>
-         </div>
-      </main>
-      <section>
-          <div class="article">News Article</div>
-           <img src="images/cit230_image_franklinOriginal.jpeg" alt="cit230_image_franklinOriginal.jpeg">
-           <nav>
-                <ul class="navigation">
-                    <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
-                    <li><a href="#" title="Home">Home</a></li>
-                    <li><a href="#" title="About">About</a></li>
-                    <li><a href="#" title="Service">Service</a></li>
-                    <li><a href="#" title="History">History</a></li>
-                    <li><a href="#" title="Contact">Contact</a></li>
-                </ul>
-           </nav>
+   <main>
+      <h1>Soda Springs, Idaho</h1>
+      <div class="herodiv">
+      <script src="script/weatherapisodasprings.js"></script>
+      <picture>
+         <source srcset="images/aerial-view.jpg" media="(max-width: 655px)">
+         <img class="bodyimg" src="images/Soda Springs.jpg" alt="Soda_Springs.jpg">
+      </picture>      
+      <section class="stats">
+   </main>
+      <section class="article">
+            <h3>Soda Springs, Idaho – Curiosity on the Oregon Trail</h3>
+            <h4>By Kathy Weiser-Alexander</h4>
+            <p>Located along a shortcut in the Oregon-California Trail off of the main route to Fort Hall, Idaho was Soda Springs. These natural bubbling pools of carbonated water, caused by ancient volcanic activity, were first called “Beer Springs”. Visited by local Indians, fur traders, and trappers prior to the days of the Oregon Trail emigrations, the springs were rightfully considered to be one of the marvels of the overland trails.<br>
+              At the time that pioneers were headed west for California and Oregon, there was an abundance of springs and water in the area and the area became known as the “Oregon Trail Oasis.”<br>
+              Emigrants frequently took advantage of the hot water to wash clothes, bathing, and medicinal purposes, often noting the picturesque scenery of the area and the smell that came from the springs. On July 24, 1838, Sarah White Smith stated:<br>
+              “Traveled . . . along the bank of the Bear River & are encamped at Soda Springs. This is indeed a curiosity. The water tastes like soda water, especially artificially prepared. The water is bubbling and foaming like boiling water. I drank of it. . . . We find it excellent for baking bread, no preparation of water is necessary. Take it from the fountain & the bread is as light as any prepared with yeast.”<br>
+              The development of the town of Soda Springs and the building of Alexander Reservoir has destroyed or covered many of these historic springs; however, Steamboat Spring, Wagonbox Grave, Hooper Spring, Octagon Spring, and two short traces of ruts can still be seen in the area. In Hooper Springs Park, visitors can sample the carbonated water just as westward-bound travelers did some 160 years ago.<br>
+              Soda Springs is also the home of the world’s largest man-made geyser. The geyser was created in 1937 when engineers were attempting to find a hot water source for a swimming pool. On November 30, 1937, the drill went down 315 feet and unleashed the geyser. The extreme pressure. caused by carbon dioxide gas mixing with water in an underground chamber, caused water to shoot 100 feet into the sky. It is now capped and controlled by a timer and erupts every hour on the hour. It is the only captive geyser in the world.<br>
+              Another interesting site is the Wagon Box Grave in Fairview Cemetery.  In the summer of 1861 a family of seven on their way to Oregon was camped in the vicinity of Soda Creek and the Bear River. Their horses had strayed and the family fell behind the main part of the wagon train to search for them. Sometime during the night they were killed by Indians. the bodies were found the next morning by members of the larger party. One man, George Goodheart, related their burial as follows:<br>
+              “We then covered them all up with quilts, and took the upper sideboards and sawed them so they would fit across the wagon box. We put some across over the old Folks’ faces and some over the children’s faces at the foot. Then we got some willows from Soda Creek and cut them so as to cover the whole length of the wagon box. We then spread quilts over them, covered them with dirt, and set four formation rocks, one at each corner.”</p>
       </section>
       <section>
-            <h3>ANNUAL WEATHER SUMMARY NOVEMBER 2018 TO OCTOBER 2019</h3>
-            <h4>By: The Farmers Almanac </h4>
-            <p>Winter temperatures and precipitation will be above normal, on average, with the coldest periods in late December, early January, and early February. Snowfall will be above normal in the north and below normal in the south, with the snowiest periods in late November, late December, early and late January, mid- to late February, and early March. April and May will have temperatures below normal in the north and above normal in the south and will be slightly drier than normal. Summer will be hotter and slightly drier than normal, with the hottest periods in mid- and late June and mid- to late July. September and October will be warmer than normal, with near-normal precipitation.</p>>
-      </section>
-    
+          <nav>
+             <ul class="navigation">
+               <li class="topnav"><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+               <li><a href="www.sodaspringsid.com" title="Home">Home</a></li>
+               <li><a href="https://en.wikipedia.org/wiki/Soda_Springs,_Idaho" title="About">About</a></li>
+               <li><a href="www.city-data.com/city/Soda-Springs-Idaho.html" title="Service">Service</a></li>
+               <li><a href="https://idahohighcountry.org/sodasprings/" title="History">History</a></li>
+               <li><a href="www.sodaspringsid.com" title="Contact">Contact</a></li>
+             </ul>
+          </nav>
+     </section>
     <script src="script/hamburger.js"></script>
 
 	<script src="script/windchill.js"></script>
 
-      <footer>
-            <p>&copy; 2019 | Southeast Idaho Weather<br>1234 Hunter Rd., Preston, Idaho, 12345</p>
-      </footer>
- </body>
+   <footer>
+      <p>&copy; 2019 | Southeast Idaho Weather<br>1234 Hunter Rd., Preston, Idaho, 12345</p>
+   </footer>
+</body>
 
 </html>
