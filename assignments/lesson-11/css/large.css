@@ -80,7 +80,6 @@ nav {
 }
 
 .gallery {
-    columns: 3;
     float: right;
     width: 30%;
     text-align: center;
@@ -90,7 +89,6 @@ nav {
     border: thin silver solid;
     margin: .5em;
     padding: .5em;
-    image-resolution: 200;
 }
 
 .flexbox { flex-direction: row;}
