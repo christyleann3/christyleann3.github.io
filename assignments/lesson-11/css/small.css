@@ -70,8 +70,7 @@ header {
 .row {
     width: auto;
 }
-.column {
-    display: flex;
+.column1, .column2, .column3 {
     float: left;
     width:33.33%;
     border: 1px solid #000;
