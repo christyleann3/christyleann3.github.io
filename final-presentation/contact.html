@@ -11,12 +11,14 @@
         <header class="logo">
             <img src="images/final_logo.jpg" alt="images/final_logo.jpg">
         </header>
-        <nav class="select">
-            <a href="final.html">Home</a>
-            <a href="temple.html">Locate a Temple</a>
-            <a href="reservation.html">Make a Reservation</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
+        <nav>
+            <button class="topnav" onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="menu" class="navigation"></ul>
+            <li><a href="final.html">Home</a></li>
+            <li><a href="temple.html">Locate a Temple</a></li>
+            <li><a href="reservation.html">Make a Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li id="current-page" class="page"><a href="contact.html">Contact</a></li>
         </nav>
         <main>
 
