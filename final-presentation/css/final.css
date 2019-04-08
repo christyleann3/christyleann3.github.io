@@ -7,6 +7,11 @@
 }
 /*end of header*/
 
+/*start of navigation*/
+.navigation {
+    align-content: left;
+}
+
 /*start of slide*/
 * {box-sizing:border-box}
 
