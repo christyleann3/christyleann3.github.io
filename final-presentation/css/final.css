@@ -5,6 +5,10 @@
     padding: 1px;
     border: 1px solid #0000FF;
 }
+
+.action {
+    float: right;
+}
 /*end of header*/
 
 /*start of slide*/
