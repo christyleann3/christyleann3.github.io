@@ -1,5 +1,10 @@
 /*start of header*/
-
+.header {
+    background-color: #0099FF;
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid #0000FF;
+}
 /*end of header*/
 
 /*start of slide*/
