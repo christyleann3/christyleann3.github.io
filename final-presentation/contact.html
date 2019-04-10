@@ -8,20 +8,41 @@
         <link rel="stylesheet" href="css/final.css">
     </head>
     <body>
-        <header class="logo">
+        <header class="header">
             <img src="images/final_logo.jpg" alt="images/final_logo.jpg">
+            <input type="submit" value="Make a Reservation" onclick="link.href='https://christyleann3.github.io/final-presentation/reservation.html';">
         </header>
-        <nav>
-            <button class="topnav" onclick="toggleMenu()">&#9776; Menu</button>
-            <ul id="menu" class="navigation"></ul>
-            <li><a href="final.html">Home</a></li>
-            <li><a href="temple.html">Locate a Temple</a></li>
-            <li><a href="reservation.html">Make a Reservation</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li id="current-page" class="page"><a href="contact.html">Contact</a></li>
+        <nav class="nav">
+            <b><a href="final.html">Home</a></b> &nbsp;
+            <b><a href="temple.html">Locate a Temple</a></b> &nbsp;
+            <b><a href="reservation.html">Make a Reservation</a></b> &nbsp;
+            <b><a href="services.html">Services</a></b> &nbsp;
+            <b id="current-page" class="page"><a href="contact.html">Contact</a></b>
         </nav>
         <main>
-
+            <h2>The Temple Inn & Suites</h2>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p><br>
+            <div class="container">
+                <form action="action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+                    <label for="state">State</label>
+                    <select id="state" name="state">
+                        <option value="indiana">Indiana</option>
+                        <option value="oklahoma">Oklahoma</option>
+                        <option value="california">California</option>
+                        <option value="texas">Texas</option>
+                        <option value="illinois">Illinois</option>
+                        <option value="utah">Utah</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
         </main>
         <footer>
             
