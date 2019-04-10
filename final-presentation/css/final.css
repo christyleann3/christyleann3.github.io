@@ -7,6 +7,14 @@
 }
 /*end of header*/
 
+/*start of  nav*/
+.nav {
+    border: 1px solid #0000FF;
+    margin: 1px;
+    padding: 1px;
+}
+/*end of nav*/
+
 /*start of slide*/
 * {box-sizing:border-box}
 
