@@ -104,7 +104,8 @@
 
 /*start of reservation*/
 .reservation {
-    
+    margin: 0;
+    padding: 0;
 }
 /*end of reservation*/
 
