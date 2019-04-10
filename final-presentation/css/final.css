@@ -193,3 +193,11 @@ span.price {
         margin-bottom: 20px;
     }
 }
+
+/*start of footer*/
+.footer {
+    background-color: #0099FF;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #0000FF;
+}
