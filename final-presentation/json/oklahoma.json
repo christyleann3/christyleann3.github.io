@@ -1,10 +1,46 @@
-var oklahoma = {
-    "address": ;
-    "telephone": ;
-    "email": ;
-    "services": ;
-    "history": ;
-    "ordinance schedule": ;
-    "session schedule": ;
-    "temple closure schedule": ;
+{
+    "address": "12030 N Mustang Rd",
+    "city": "Yukon",
+    "state": "Oklahoma",
+    "zip": "73099", 
+    "telephone": "none listed",
+    "services": {
+        "rental": "No Clothing Rental Available",
+        "food": "No Cafeteria Available", 
+        "housing": "No Patron Housing Available", 
+        "available": "No Distribution Center Nearby"
+    }    
+    "milestones": {
+        "announced": "14 March 1999",
+        "groundbreaking": "3 July 1999",
+        "dedicated": "30 July 2000",
+        "rededicated": "5 May 2019"
+    } 
+    "ordinance schedule": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "call for times",
+        "wednesday": "call for times",
+        "thursday": "call for times",
+        "friday": "call for times",
+        "saturday": "call for times"
+    }
+    "session schedule": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "call for times",
+        "wednesday": "call for times",
+        "thursday": "call for times",
+        "friday": "call for times",
+        "saturday": "call for times"
+    }
+    "temple closure schedule": {
+        "thursday": "4 July 2019",
+        "saturday": "5 October 2019",
+        "wednesday": "27 November 2019(limited hours)",
+        "thursday": "28 November 2019",
+        "monday": "2-16 December 2019",
+        "tuesday": "24-25 December 2019",
+        "tuesday": "31 December 2019"
+    } 
 }

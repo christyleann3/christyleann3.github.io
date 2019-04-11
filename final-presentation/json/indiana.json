@@ -1,10 +1,45 @@
-var indiana = {
-    "address": ;
-    "telephone": ;
-    "email": ;
-    "services": ;
-    "history": ;
-    "ordinance schedule": ;
-    "session schedule": ;
-    "temple closure schedule": ;
+{
+    "address": "11565 Temple Dr",
+    "city": "Carmel",
+    "state": "Indiana",
+    "zip": "46032", 
+    "telephone": "317-993-3800",
+    "services": {
+        "rental": "No Clothing Rental Available",
+        "food": "No Cafeteria Available", 
+        "housing": "No Patron Housing Available", 
+        "available": "No Distribution Center Nearby"
+    }    
+    "milestones": {
+        "announced": "2 October 2010",
+        "groundbreaking": "29 September 2012",
+        "dedicated": "23 August 2015"
+    } 
+    "ordinance schedule": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "call for times",
+        "wednesday": "call for times",
+        "thursday": "call for times",
+        "friday": "call for times",
+        "saturday": "call for times"
+    }
+    "session schedule": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "call for times",
+        "wednesday": "call for times",
+        "thursday": "call for times",
+        "friday": "call for times",
+        "saturday": "call for times"
+    }
+    "temple closure schedule": {
+        "thursday": "4 July 2019",
+        "monday": "26 August-9 September 2019",
+        "saturday": "5 October 2019",
+        "wednesday": "27 November 2019(limited hours)",
+        "thursday": "28 November 2019",
+        "tuesday": "24-25 December 2019",
+        "tuesday": "31 December 2019"
+    } 
 }

@@ -1,10 +1,45 @@
-var california = {
-    "address": ;
-    "telephone": ;
-    "email": ;
-    "services": ;
-    "history": ;
-    "ordinance schedule": ;
-    "session schedule": ;
-    "temple closure schedule": ;
+{
+    "address": "4770 Lincoln Ave",
+    "city": "Oakland",
+    "state": "California",
+    "zip": "94602", 
+    "telephone": "510-531-3200",
+    "services": {
+        "rental": "Clothing Rental Available",
+        "food": "Cafeteria Available", 
+        "housing": "Patron Housing Available", 
+        "available": "Distribution Center Nearby"
+    }    
+    "milestones": {
+        "announced": "26 May 1962",
+        "groundbreaking": "26 May 1962",
+        "dedicated": "17 November 1964"
+    } 
+    "ordinance schedule": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "call for times",
+        "wednesday": "call for times",
+        "thursday": "call for times",
+        "friday": "call for times",
+        "saturday": "call for times"
+    }
+    "session schedule": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "call for times",
+        "wednesday": "call for times",
+        "thursday": "call for times",
+        "friday": "call for times",
+        "saturday": "call for times"
+    }
+    "temple closure schedule": {
+        "thursday": "4 July 2019",
+        "monday": "9-23 September 2019",
+        "saturday": "5 October 2019",
+        "wednesday": "27 November 2019(limited hours)",
+        "thursday": "28 November 2019",
+        "tuesday": "24-25 December 2019",
+        "tuesday": "31 December 2019"
+    } 
 }

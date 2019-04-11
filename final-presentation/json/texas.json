@@ -1,10 +1,46 @@
-var texas = {
-    "address": ;
-    "telephone": ;
-    "email": ;
-    "services": ;
-    "history": ;
-    "ordinance schedule": ;
-    "session schedule": ;
-    "temple closure schedule": ;
+{
+    "address": "6363 Willow Ln",
+    "city": "Dallas",
+    "state": "Texas",
+    "zip": "75230", 
+    "telephone": "972-991-1273",
+    "services": {
+        "rental": "Clothing Rental Available",
+        "food": "Cafeteria Available", 
+        "housing": "No Patron Housing Available", 
+        "available": "Distribution Center Nearby"
+    }    
+    "milestones": {
+        "announced": "1 April 1981",
+        "groundbreaking": "22 January 1983",
+        "dedicated": "19 October 1984",
+        "rededicated": "5 March 1989"
+    } 
+    "ordinance schedule": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "call for times",
+        "wednesday": "call for times",
+        "thursday": "call for times",
+        "friday": "call for times",
+        "saturday": "call for times"
+    }
+    "session schedule": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "call for times",
+        "wednesday": "call for times",
+        "thursday": "call for times",
+        "friday": "call for times",
+        "saturday": "call for times"
+    }
+    "temple closure schedule": {
+        "monday": "22 April-6 May 2019",
+        "thursday": "4 July 2019",
+        "tuesday": "1 October-11 November 2019",
+        "wednesday": "27 November 2019(limited hours)",
+        "thursday": "28 November 2019",
+        "tuesday": "24-25 December 2019",
+        "tuesday": "31 December 2019"
+    } 
 }
