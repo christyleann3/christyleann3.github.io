@@ -113,6 +113,47 @@
     margin: 1px;
     padding: 1px;
 }
+/*end of welcome*/
+
+/*start of weather*/
+#temp, #forecast, #humidity-div {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 60px;
+    color: #0099FF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+
+.forecast {
+    height: 80%;
+    width: 50%;
+    border-bottom-left-radius: 25px;
+    background-color: #ccc;
+}
+
+.temperature {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    height: 40%;
+    width: 50%;
+    background-color: #8ab1cf;
+}
+
+.humidity {
+    height: 40%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    border-bottom-right-radius: 25px;
+    background-color: #0099FF;
+}
+/*end of weather*/
 
 /*start of reservation*/
 .reservation {
@@ -205,6 +246,7 @@ span.price {
         margin-bottom: 20px;
     }
 }
+/*end of payment*/
 
 /*start contact us*/
 input[type=text], select, textarea {
