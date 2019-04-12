@@ -44,3 +44,17 @@
         "tuesday": "31 December 2019"
     } 
 }
+
+{"coord":{"lon":-96.77,"lat":32.9},
+"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],
+"base":"stations",
+"main":{"temp":294.11,"pressure":1010,"humidity":28,"temp_min":292.59,"temp_max":295.37},
+"visibility":16093,
+"wind":{"speed":4.6,"deg":90,"gust":7.7},
+"clouds":{"all":75},
+"dt":1555107906,
+"sys":{"type":1,"id":3783,"message":0.0071,"country":"US","sunrise":1555070458,"sunset":1555116861},
+"id":420036506,
+"name":"Garland",
+"cod":200
+}

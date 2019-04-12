@@ -43,3 +43,17 @@
         "tuesday": "31 December 2019"
     } 
 }
+
+{"coord":{"lon":-122.23,"lat":37.82},
+"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],
+"base":"stations",
+"main":{"temp":293.63,"pressure":1013,"humidity":49,"temp_min":288.15,"temp_max":297.59},
+"visibility":16093,
+"wind":{"speed":7.2,"deg":260},
+"clouds":{"all":20},
+"dt":1555107905,
+"sys":{"type":1,"id":5154,"message":0.0099,"country":"US","sunrise":1555076274,"sunset":1555123265},
+"id":420002133,
+"name":"Oakland",
+"cod":200
+}

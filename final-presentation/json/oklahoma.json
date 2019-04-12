@@ -44,3 +44,17 @@
         "tuesday": "31 December 2019"
     } 
 }
+
+{"coord":{"lon":-97.76,"lat":35.51},
+"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],
+"base":"stations",
+"main":{"temp":287.54,"pressure":1014,"humidity":33,"temp_min":286.48,"temp_max":288.71},
+"visibility":16093,
+"wind":{"speed":4.6,"deg":70},
+"clouds":{"all":1},
+"dt":1555107679,
+"sys":{"type":1,"id":5444,"message":0.0046,"country":"US","sunrise":1555070547,"sunset":1555117248},
+"id":420029960,
+"name":"Oklahoma City",
+"cod":200
+}

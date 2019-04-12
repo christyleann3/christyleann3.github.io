@@ -43,3 +43,17 @@
         "tuesday": "31 December 2019"
     } 
 }
+
+{"coord":{"lon":-86.12,"lat":39.97},
+"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],
+"base":"stations",
+"main":{"temp":289.77,"pressure":1013,"humidity":45,"temp_min":288.15,"temp_max":291.48},
+"visibility":16093,
+"wind":{"speed":11.8,"deg":230,"gust":14.9},
+"clouds":{"all":1},
+"dt":1555107742,
+"sys":{"type":1,"id":4965,"message":0.0061,"country":"US","sunrise":1555067477,"sunset":1555114732},
+"id":420011345,
+"name":"Indianapolis",
+"cod":200
+}
