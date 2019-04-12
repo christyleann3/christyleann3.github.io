@@ -129,27 +129,27 @@
 }
 
 .forecast {
-    height: 80%;
-    width: 50%;
+    height: 50%;
+    width: 30%;
     border-bottom-left-radius: 25px;
     background-color: #ccc;
 }
 
 .temperature {
     position: absolute;
-    left: 50%;
+    left: 30%;
     top: 0%;
-    height: 40%;
-    width: 50%;
+    height: 20%;
+    width: 30%;
     background-color: #8ab1cf;
 }
 
 .humidity {
-    height: 40%;
-    width: 50%;
+    height: 20%;
+    width: 30%;
     position: absolute;
-    left: 50%;
-    top: 40%;
+    left: 30%;
+    top: 20%;
     border-bottom-right-radius: 25px;
     background-color: #0099FF;
 }
