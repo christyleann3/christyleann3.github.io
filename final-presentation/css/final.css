@@ -107,6 +107,13 @@
 }
 /*end of slide*/
 
+/*start of welcome*/
+.welcome {
+    border: 1px solid #0000FF;
+    margin: 1px;
+    padding: 1px;
+}
+
 /*start of reservation*/
 .reservation {
     margin: 0;
